@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zenith.IA | Agência de Inteligência Artificial</title>
+  <meta name="description" content="Aplicação estratégica de IA em negócios, pesquisa científica e desenvolvimento de produtos digitais. Engenharia de Prompt, Automação Empresarial, SaaS e Capacitação." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.82/build/spline-viewer.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-bracket">[</span>
+        <span class="logo-text">Zenith</span>
+        <span class="logo-bracket">]</span>
+        <span class="logo-tag">.IA</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#areas">Serviços</a></li>
+        <li><a href="#metodologia">Metodologia</a></li>
+        <li><a href="#para-quem">Para Quem</a></li>
+        <li><a href="#contato" class="nav-cta">Falar Conosco</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="grid-overlay"></div>
+      <canvas class="particles-canvas" id="particlesCanvas"></canvas>
+    </div>
+
+    <div class="hero-split">
+      <!-- LEFT: text -->
+      <div class="hero-left">
+        <!-- Spotlight SVG -->
+        <svg class="hero-spotlight" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3787 2842" fill="none" aria-hidden="true">
+          <g filter="url(#spotlightFilter)">
+            <ellipse cx="1924.71" cy="273.501" rx="1924.71" ry="273.501"
+              transform="matrix(-0.822377 -0.568943 -0.568943 0.822377 3631.88 2291.09)"
+              fill="white" fill-opacity="0.12"/>
+          </g>
+          <defs>
+            <filter id="spotlightFilter" x="0.86" y="0.84" width="3785.16" height="2840.26"
+              filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+              <feGaussianBlur stdDeviation="151" result="effect1_foregroundBlur"/>
+            </filter>
+          </defs>
+        </svg>
+
+        <div class="hero-badge" data-aos="fade-down">
+          <span class="badge-dot"></span>
+          Agência de Inteligência Artificial
+        </div>
+        <h1 class="hero-title" data-aos="fade-up">
+          Inteligência<br />
+          Artificial<br />
+          <span class="gradient-text">com Estratégia</span>
+        </h1>
+        <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="100">
+          Aplicação estratégica de IA em negócios, pesquisa científica e desenvolvimento de produtos digitais.
+        </p>
+        <p class="hero-desc" data-aos="fade-up" data-aos-delay="200">
+          Arquitetura de prompts · Análise de dados · Automação · SaaS · Capacitação
+        </p>
+        <div class="hero-actions" data-aos="fade-up" data-aos-delay="300">
+          <a href="#contato" class="btn btn-primary" id="btn-diagnostico">
+            <span class="btn-icon">⚡</span>
+            Diagnóstico Estratégico
+          </a>
+          <a href="#areas" class="btn btn-secondary">
+            <span class="btn-icon">→</span>
+            Ver Serviços
+          </a>
+        </div>
+        <div class="hero-stats" data-aos="fade-up" data-aos-delay="400">
+          <div class="stat-item">
+            <span class="stat-number">8+</span>
+            <span class="stat-label">Áreas de Atuação</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">IA</span>
+            <span class="stat-label">Aplicada &amp; Estratégica</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">∞</span>
+            <span class="stat-label">Potencial de Escala</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT: Spline 3D -->
+      <div class="hero-right">
+        <div class="spline-wrapper">
+          <spline-viewer
+            url="https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode"
+            loading-anim-type="spinner-small-dark"
+            style="width:100%;height:100%;"
+          ></spline-viewer>
+          <!-- fade mask on the left edge to blend with page -->
+          <div class="spline-fade-left"></div>
+          <div class="spline-fade-bottom"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE (Team Member Card Style) -->
+  <section class="sobre team-section" id="sobre">
+    <div class="container">
+      <div class="team-card" data-aos="fade-up">
+        
+        <div class="team-card-label" data-aos="fade-right" data-aos-delay="100">
+          AGÊNCIA DE INTELIGÊNCIA ARTIFICIAL
+        </div>
+
+        <div class="team-card-body">
+          <!-- Portrait -->
+          <div class="team-portrait" data-aos="zoom-in" data-aos-delay="200">
+            <div class="team-portrait-overlay"></div>
+            <img src="david-highres.jpg" alt="Zenith.IA" class="team-img" />
+          </div>
+
+          <!-- Info Block -->
+          <div class="team-info" data-aos="fade-left" data-aos-delay="300">
+            <h2 class="team-name">
+              Zenith<br />
+              <span>.IA</span>
+            </h2>
+
+            <div class="team-details">
+              <!-- Circular CTA -->
+              <div class="team-cta">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="team-cta-icon">
+                  <path d="M5 12h14"></path>
+                  <path d="m12 5 7 7-7 7"></path>
+                </svg>
+              </div>
+
+              <!-- Bio -->
+              <div class="team-bio">
+                <p>
+                  Somos uma agência especialista em Inteligência Artificial com atuação prática. Nosso foco é estruturar inteligência aplicada — não apenas utilizar ferramentas, mas organizar sistemas que geram eficiência, clareza e resultado.
+                </p>
+                <br>
+                <ul class="team-bio-list">
+                  <li>Engenharia de Prompt</li>
+                  <li>Implementação de ferramentas de IA</li>
+                  <li>Pesquisa científica e análise de dados</li>
+                  <li>Desenvolvimento de produtos e softwares</li>
+                  <li>Automação e treinamentos</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ÁREAS DE ATUAÇÃO -->
+  <section class="areas" id="areas">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <div class="section-tag">// Serviços</div>
+        <h2 class="section-title">Áreas de <span class="gradient-text">Atuação</span></h2>
+        <p class="section-subtitle">Soluções completas em IA para cada necessidade do seu projeto</p>
+      </div>
+
+      <div class="areas-grid">
+
+        <!-- Card 1 -->
+        <div class="area-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="card-header">
+            <div class="card-icon">⚙️</div>
+            <div class="card-number">01</div>
+          </div>
+          <h3 class="card-title">Engenharia de Prompt</h3>
+          <p class="card-desc">Arquitetura profissional de prompts para uso estratégico de modelos de linguagem em ambientes corporativos, técnicos e científicos.</p>
+          <div class="card-tags">
+            <span>Prompts Otimizados</span>
+            <span>Workflows com IA</span>
+            <span>Sistema LLM</span>
+          </div>
+          <div class="card-expand">
+            <button class="expand-btn" aria-expanded="false">Ver detalhes <span class="arrow">▼</span></button>
+            <div class="expand-content">
+              <div class="expand-inner">
+                <div class="detail-col">
+                  <strong>O que entregamos</strong>
+                  <ul>
+                    <li>Estruturação de prompts otimizados</li>
+                    <li>Padronização de workflows com IA</li>
+                    <li>Bibliotecas internas de prompts</li>
+                    <li>Otimização para funções específicas</li>
+                    <li>Sistemas baseados em LLM</li>
+                  </ul>
+                </div>
+                <div class="detail-col">
+                  <strong>Para quem</strong>
+                  <ul>
+                    <li>Equipes técnicas que precisam padronizar</li>
+                    <li>Cientistas com análises estruturadas</li>
+                    <li>Empresas que escalam com IA</li>
+                    <li>Produtos digitais com LLM</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="area-card" data-aos="fade-up" data-aos-delay="80">
+          <div class="card-header">
+            <div class="card-icon">🛠️</div>
+            <div class="card-number">02</div>
+          </div>
+          <h3 class="card-title">Ferramentas de IA</h3>
+          <p class="card-desc">Implementação estratégica de ferramentas de IA no fluxo operacional de empresas e pesquisadores.</p>
+          <div class="card-tags">
+            <span>ChatGPT</span>
+            <span>NotebookLM</span>
+            <span>Lovable</span>
+            <span>Google AI</span>
+          </div>
+          <div class="card-expand">
+            <button class="expand-btn" aria-expanded="false">Ver detalhes <span class="arrow">▼</span></button>
+            <div class="expand-content">
+              <div class="expand-inner">
+                <div class="detail-col">
+                  <strong>Ferramentas</strong>
+                  <ul>
+                    <li>ChatGPT &amp; Gemini</li>
+                    <li>NotebookLM</li>
+                    <li>Lovable &amp; Genspark</li>
+                    <li>Manus &amp; Consensus</li>
+                    <li>Google AI &amp; Antigravity</li>
+                  </ul>
+                </div>
+                <div class="detail-col">
+                  <strong>O que oferecemos</strong>
+                  <ul>
+                    <li>Mapeamento de ferramentas</li>
+                    <li>Integração ao fluxo da empresa</li>
+                    <li>Treinamento avançado</li>
+                    <li>Protocolos internos</li>
+                    <li>Stack de IA personalizada</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="area-card" data-aos="fade-up" data-aos-delay="160">
+          <div class="card-header">
+            <div class="card-icon">🔬</div>
+            <div class="card-number">03</div>
+          </div>
+          <h3 class="card-title">IA na Pesquisa Científica</h3>
+          <p class="card-desc">Aplicação de inteligência artificial em pesquisa experimental e desenvolvimento tecnológico.</p>
+          <div class="card-tags">
+            <span>Planejamento</span>
+            <span>Relatórios Técnicos</span>
+            <span>Escrita Científica</span>
+          </div>
+          <div class="card-expand">
+            <button class="expand-btn" aria-expanded="false">Ver detalhes <span class="arrow">▼</span></button>
+            <div class="expand-content">
+              <div class="expand-inner">
+                <div class="detail-col">
+                  <strong>Serviços</strong>
+                  <ul>
+                    <li>Dados experimentais organizados</li>
+                    <li>Relatórios automatizados</li>
+                    <li>Artigos científicos assistidos</li>
+                    <li>Modelagem de experimentos</li>
+                    <li>Escrita otimizada</li>
+                  </ul>
+                </div>
+                <div class="detail-col">
+                  <strong>Experiência</strong>
+                  <ul>
+                    <li>Planejamento de experimentos</li>
+                    <li>Modelagem de hipóteses</li>
+                    <li>Relatórios técnicos</li>
+                    <li>Conteúdo técnico</li>
+                    <li>Escrita científica</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="area-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="card-header">
+            <div class="card-icon">📊</div>
+            <div class="card-number">04</div>
+          </div>
+          <h3 class="card-title">Análise de Dados com IA</h3>
+          <p class="card-desc">Transformação de dados brutos em inteligência acionável para tomada de decisão estratégica.</p>
+          <div class="card-tags">
+            <span>Modelos Preditivos</span>
+            <span>Dashboards</span>
+            <span>Análise Multivariada</span>
+          </div>
+          <div class="card-expand">
+            <button class="expand-btn" aria-expanded="false">Ver detalhes <span class="arrow">▼</span></button>
+            <div class="expand-content">
+              <div class="expand-inner">
+                <div class="detail-col">
+                  <strong>Serviços</strong>
+                  <ul>
+                    <li>Análise de dados estruturada</li>
+                    <li>Modelagem preditiva</li>
+                    <li>Dashboards inteligentes</li>
+                    <li>Simulações estratégicas</li>
+                    <li>Análise exploratória</li>
+                  </ul>
+                </div>
+                <div class="detail-col">
+                  <strong>Aplicações</strong>
+                  <ul>
+                    <li>Banco de dados estruturado</li>
+                    <li>Análise exploratória</li>
+                    <li>Estatísticas descritivas</li>
+                    <li>Análises multivariadas</li>
+                    <li>Modelos preditivos</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="area-card" data-aos="fade-up" data-aos-delay="80">
+          <div class="card-header">
+            <div class="card-icon">📦</div>
+            <div class="card-number">05</div>
+          </div>
+          <h3 class="card-title">Desenvolvimento de Infoprodutos</h3>
+          <p class="card-desc">Criação de ativos digitais escaláveis utilizando IA como motor de produção e posicionamento estratégico.</p>
+          <div class="card-tags">
+            <span>Cursos</span>
+            <span>E-books</span>
+            <span>Animações</span>
+          </div>
+          <div class="card-expand">
+            <button class="expand-btn" aria-expanded="false">Ver detalhes <span class="arrow">▼</span></button>
+            <div class="expand-content">
+              <div class="expand-inner">
+                <div class="detail-col">
+                  <strong>Atuação</strong>
+                  <ul>
+                    <li>Planejamento estratégico</li>
+                    <li>Criação de sites</li>
+                    <li>Cursos técnicos</li>
+                    <li>Treinamentos especializados</li>
+                    <li>Animações científicas</li>
+                    <li>E-books técnicos</li>
+                  </ul>
+                </div>
+                <div class="detail-col">
+                  <strong>Diferencial</strong>
+                  <ul>
+                    <li>Produção técnica + IA</li>
+                    <li>Posicionamento estratégico</li>
+                    <li>Materiais interativos</li>
+                    <li>Escala com qualidade</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="area-card" data-aos="fade-up" data-aos-delay="160">
+          <div class="card-header">
+            <div class="card-icon">💻</div>
+            <div class="card-number">06</div>
+          </div>
+          <h3 class="card-title">Softwares e SaaS com IA</h3>
+          <p class="card-desc">Concepção de produtos digitais com lógica inteligente embarcada desde a ideação até a especificação técnica.</p>
+          <div class="card-tags">
+            <span>Ideação SaaS</span>
+            <span>Arquitetura</span>
+            <span>Especificação</span>
+          </div>
+          <div class="card-expand">
+            <button class="expand-btn" aria-expanded="false">Ver detalhes <span class="arrow">▼</span></button>
+            <div class="expand-content">
+              <div class="expand-inner">
+                <div class="detail-col">
+                  <strong>Serviços</strong>
+                  <ul>
+                    <li>Ideação de SaaS com IA</li>
+                    <li>Estruturação de lógica</li>
+                    <li>Arquitetura funcional</li>
+                    <li>Especificação técnica</li>
+                    <li>Modelagem inteligente</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 7 -->
+        <div class="area-card area-card--wide" data-aos="fade-up" data-aos-delay="0">
+          <div class="card-header">
+            <div class="card-icon">🚀</div>
+            <div class="card-number">07</div>
+          </div>
+          <h3 class="card-title">Automação e Produtividade Empresarial</h3>
+          <p class="card-desc">Implementação de IA para redução de fricção operacional e aumento de eficiência nas empresas.</p>
+          <div class="card-tags">
+            <span>Automação de Processos</span>
+            <span>Agentes Internos</span>
+            <span>Análise Documental</span>
+            <span>Gestão</span>
+          </div>
+          <div class="card-expand">
+            <button class="expand-btn" aria-expanded="false">Ver detalhes <span class="arrow">▼</span></button>
+            <div class="expand-content">
+              <div class="expand-inner">
+                <div class="detail-col">
+                  <strong>Serviços</strong>
+                  <ul>
+                    <li>Diagnóstico de gargalos</li>
+                    <li>Fluxos automatizados</li>
+                    <li>Implementação de agentes</li>
+                    <li>Automação de documentação</li>
+                    <li>Sistema de relatórios</li>
+                  </ul>
+                </div>
+                <div class="detail-col">
+                  <strong>Aplicações</strong>
+                  <ul>
+                    <li>Propostas comerciais automáticas</li>
+                    <li>Automações de processos</li>
+                    <li>Análise documental</li>
+                    <li>Sistemas de gestão</li>
+                    <li>Documentação padronizada</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 8 -->
+        <div class="area-card area-card--wide" data-aos="fade-up" data-aos-delay="80">
+          <div class="card-header">
+            <div class="card-icon">🎓</div>
+            <div class="card-number">08</div>
+          </div>
+          <h3 class="card-title">Treinamentos e Capacitação em IA</h3>
+          <p class="card-desc">Formação prática e técnica em uso estratégico de Inteligência Artificial. Ensino com foco em aplicação real, padronização e resultado.</p>
+          <div class="card-tags">
+            <span>Workshops</span>
+            <span>Equipes Técnicas</span>
+            <span>Executivos</span>
+            <span>Prompt Engineering</span>
+          </div>
+          <div class="card-expand">
+            <button class="expand-btn" aria-expanded="false">Ver detalhes <span class="arrow">▼</span></button>
+            <div class="expand-content">
+              <div class="expand-inner">
+                <div class="detail-col">
+                  <strong>Formatos</strong>
+                  <ul>
+                    <li>Workshop para pesquisadores</li>
+                    <li>Treinamento para equipes</li>
+                    <li>Capacitação executiva</li>
+                    <li>Formação em Prompt Engineering</li>
+                    <li>IA aplicada a negócios</li>
+                  </ul>
+                </div>
+                <div class="detail-col">
+                  <strong>Diferencial</strong>
+                  <ul>
+                    <li>Aplicação real e concreta</li>
+                    <li>Padronização de processos</li>
+                    <li>Foco em resultado</li>
+                    <li>IA para produtividade</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div> <!-- /areas-grid -->
+
+      <!-- RADAR EFFECT SECTION -->
+      <div class="radar-demo-wrapper" data-aos="fade-up" data-aos-delay="200">
+        
+        <!-- Icons Grid -->
+        <div class="radar-items-grid">
+          <!-- Row 1 -->
+          <div class="radar-row row-3">
+            <div class="radar-icon-container" data-aos="zoom-in" data-aos-delay="300">
+              <div class="radar-icon-box">
+                <svg xmlns="http://www.w3.org/2000/svg" class="radar-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v7.31"/><path d="M14 9.31V2"/><path d="M8.5 2h7"/><path d="M14 9.31l6.32 11.06A2 2 0 0 1 18.59 23.4L5.41 23.4a2 2 0 0 1-1.73-3.03L10 9.31"/><path d="M10 2v7.31"/><path d="M14 9.31V2"/></svg>
+              </div>
+              <div class="radar-label">Workshop para pesquisadores</div>
+            </div>
+            
+            <div class="radar-icon-container" data-aos="zoom-in" data-aos-delay="400">
+              <div class="radar-icon-box">
+                <svg xmlns="http://www.w3.org/2000/svg" class="radar-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 16V7a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v9m16 0H4m16 0 1.28 2.55a1 1 0 0 1-.9 1.45H3.62a1 1 0 0 1-.9-1.45L4 16"/></svg>
+              </div>
+              <div class="radar-label">Treinamento para equipes técnicas</div>
+            </div>
+
+            <div class="radar-icon-container" data-aos="zoom-in" data-aos-delay="500">
+              <div class="radar-icon-box">
+                <svg xmlns="http://www.w3.org/2000/svg" class="radar-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="7" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+              </div>
+              <div class="radar-label">Capacitação executiva</div>
+            </div>
+          </div>
+          
+          <!-- Row 2 -->
+          <div class="radar-row row-3">
+            <div class="radar-icon-container" data-aos="zoom-in" data-aos-delay="600">
+              <div class="radar-icon-box">
+                <svg xmlns="http://www.w3.org/2000/svg" class="radar-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
+              </div>
+              <div class="radar-label">Formação em Prompt Eng.</div>
+            </div>
+            
+            <div class="radar-icon-container" data-aos="zoom-in" data-aos-delay="700">
+              <div class="radar-icon-box">
+                <svg xmlns="http://www.w3.org/2000/svg" class="radar-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+              </div>
+              <div class="radar-label">IA aplicada a negócios</div>
+            </div>
+
+            <div class="radar-icon-container" data-aos="zoom-in" data-aos-delay="800">
+              <div class="radar-icon-box">
+                <svg xmlns="http://www.w3.org/2000/svg" class="radar-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+              </div>
+              <div class="radar-label">IA para produtividade avançada</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Radar Base -->
+        <div class="radar-base">
+          <div class="radar-sweep">
+            <div class="radar-sweep-line"></div>
+          </div>
+          <!-- Concentric circles -->
+          <div class="radar-circle radar-fade-in" style="width: 5rem; height: 5rem; border-color: rgba(71,85,105,0.9); animation-delay: 0.1s;"></div>
+          <div class="radar-circle radar-fade-in" style="width: 10rem; height: 10rem; border-color: rgba(71,85,105,0.8); animation-delay: 0.2s;"></div>
+          <div class="radar-circle radar-fade-in" style="width: 15rem; height: 15rem; border-color: rgba(71,85,105,0.7); animation-delay: 0.3s;"></div>
+          <div class="radar-circle radar-fade-in" style="width: 20rem; height: 20rem; border-color: rgba(71,85,105,0.6); animation-delay: 0.4s;"></div>
+          <div class="radar-circle radar-fade-in" style="width: 25rem; height: 25rem; border-color: rgba(71,85,105,0.5); animation-delay: 0.5s;"></div>
+          <div class="radar-circle radar-fade-in" style="width: 30rem; height: 30rem; border-color: rgba(71,85,105,0.4); animation-delay: 0.6s;"></div>
+          <div class="radar-circle radar-fade-in" style="width: 35rem; height: 35rem; border-color: rgba(71,85,105,0.3); animation-delay: 0.7s;"></div>
+          <div class="radar-circle radar-fade-in" style="width: 40rem; height: 40rem; border-color: rgba(71,85,105,0.2); animation-delay: 0.8s;"></div>
+        </div>
+
+        <!-- Bottom Blocker -->
+        <div class="radar-gradient-blocker"></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- METODOLOGIA -->
+  <section class="metodologia" id="metodologia">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <div class="section-tag">// Processo</div>
+        <h2 class="section-title">Metodologia de <span class="gradient-text">Trabalho</span></h2>
+      </div>
+      <div class="metodologia-steps">
+        <div class="method-step" data-aos="fade-up" data-aos-delay="0">
+          <div class="step-number">01</div>
+          <div class="step-content">
+            <div class="step-icon">🔍</div>
+            <h4>Diagnóstico Técnico</h4>
+            <p>Análise profunda do cenário atual da empresa ou projeto, identificando pontos críticos e oportunidades.</p>
+          </div>
+          <div class="step-connector"></div>
+        </div>
+        <div class="method-step" data-aos="fade-up" data-aos-delay="100">
+          <div class="step-number">02</div>
+          <div class="step-content">
+            <div class="step-icon">💡</div>
+            <h4>Identificação de Oportunidades</h4>
+            <p>Mapeamento estratégico das melhores aplicações de IA para o contexto específico do cliente.</p>
+          </div>
+          <div class="step-connector"></div>
+        </div>
+        <div class="method-step" data-aos="fade-up" data-aos-delay="200">
+          <div class="step-number">03</div>
+          <div class="step-content">
+            <div class="step-icon">🏗️</div>
+            <h4>Estruturação da Arquitetura</h4>
+            <p>Design da solução completa: prompts, fluxos, ferramentas e integrações necessárias.</p>
+          </div>
+          <div class="step-connector"></div>
+        </div>
+        <div class="method-step" data-aos="fade-up" data-aos-delay="300">
+          <div class="step-number">04</div>
+          <div class="step-content">
+            <div class="step-icon">⚡</div>
+            <h4>Implementação Estratégica</h4>
+            <p>Execução técnica da solução com acompanhamento e ajustes em tempo real.</p>
+          </div>
+          <div class="step-connector"></div>
+        </div>
+        <div class="method-step" data-aos="fade-up" data-aos-delay="400">
+          <div class="step-number">05</div>
+          <div class="step-content">
+            <div class="step-icon">🔄</div>
+            <h4>Treinamento e Otimização</h4>
+            <p>Capacitação da equipe e melhoria contínua dos sistemas implementados para máxima performance.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARA QUEM -->
+  <section class="para-quem" id="para-quem">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <div class="section-tag">// Público</div>
+        <h2 class="section-title">Para <span class="gradient-text">Quem É</span></h2>
+      </div>
+      <div class="pq-grid">
+        <div class="pq-card" data-aos="zoom-in" data-aos-delay="0">
+          <div class="pq-icon">🏢</div>
+          <h4>Empresas</h4>
+          <p>Que desejam integrar IA de forma estruturada e gerar eficiência real nos processos.</p>
+        </div>
+        <div class="pq-card" data-aos="zoom-in" data-aos-delay="100">
+          <div class="pq-icon">🔬</div>
+          <h4>Pesquisadores</h4>
+          <p>Que querem acelerar a produção científica com IA de forma rigorosa e confiável.</p>
+        </div>
+        <div class="pq-card" data-aos="zoom-in" data-aos-delay="200">
+          <div class="pq-icon">🚀</div>
+          <h4>Startups</h4>
+          <p>Que desenvolvem produtos digitais e precisam de arquitetura inteligente desde o início.</p>
+        </div>
+        <div class="pq-card" data-aos="zoom-in" data-aos-delay="300">
+          <div class="pq-icon">👥</div>
+          <h4>Times e Equipes</h4>
+          <p>Que buscam aumento real de produtividade com ferramentas e processos orientados por IA.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOTTOM WRAPPER -->
+  <div class="bottom-group" style="position: relative; overflow: hidden;">
+    <div id="dottedSurface" class="dotted-surface"></div>
+
+    <!-- CTA FINAL / CONTATO -->
+    <section class="cta-final" id="contato">
+    <div class="cta-bg">
+      <div class="cta-orb cta-orb-1"></div>
+      <div class="cta-orb cta-orb-2"></div>
+    </div>
+    <div class="container">
+      <div class="cta-content" data-aos="fade-up">
+        <div class="section-tag" style="justify-content:center">// Próximo Passo</div>
+        <h2 class="cta-title">
+          Inteligência Artificial não é sobre ferramentas.<br />
+          <span class="gradient-text">É sobre estrutura, estratégia e aplicação prática.</span>
+        </h2>
+        <p class="cta-subtitle">Vamos estruturar IA de forma inteligente no seu projeto.</p>
+        <div class="cta-actions">
+          <a href="https://wa.me/5500000000000?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20conversa%20estrat%C3%A9gica%20sobre%20IA." class="btn btn-primary btn-lg" target="_blank" id="btn-conversa">
+            <span class="btn-icon">💬</span>
+            Agendar Conversa Estratégica
+          </a>
+          <a href="mailto:contato@zenithia.com" class="btn btn-outline btn-lg">
+            <span class="btn-icon">✉️</span>
+            Enviar E-mail
+          </a>
+        </div>
+        <p class="cta-note">Resposta em até 24 horas · Diagnóstico inicial gratuito</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="logo-bracket">[</span>
+          <span class="logo-text">Zenith</span>
+          <span class="logo-bracket">]</span>
+          <span class="logo-tag">.IA</span>
+          <p>Agência de Inteligência Artificial</p>
+        </div>
+        <div class="footer-links">
+          <a href="#sobre">Sobre</a>
+          <a href="#areas">Serviços</a>
+          <a href="#metodologia">Metodologia</a>
+          <a href="#contato">Contato</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Zenith.IA · Todos os direitos reservados</p>
+        <p class="footer-tech">Construído com <span class="accent">IA</span> · Estratégia · Resultado</p>
+      </div>
+    </div>
+  </footer>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
