@@ -3,3 +3,7 @@ DockerDesktopInstaller.exe
 
 # Ignorar o doc word
 Prompt.docx
+
+.agents/
+.gitmodules
+
