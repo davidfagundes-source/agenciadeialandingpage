@@ -46,14 +46,14 @@
       -webkit-backdrop-filter: blur(16px);
       border: 1px solid var(--border);
       border-radius: var(--radius-lg);
-      padding: 60px;
+      padding: clamp(24px, 5vw, 60px);
       margin-bottom: 24px;
       transition: var(--transition);
       position: relative;
-      overflow: hidden; /* Restored */
+      overflow: hidden; 
       display: grid;
-      grid-template-columns: 1fr 1.2fr; /* Restored original ratio */
-      gap: 60px;
+      grid-template-columns: 1fr 1.2fr;
+      gap: clamp(24px, 5vw, 60px);
       align-items: center;
     }
 
@@ -168,12 +168,20 @@
     @media (max-width: 992px) {
       .service-detail-card {
         grid-template-columns: 1fr;
-        padding: 40px;
-        gap: 40px;
+        padding: 32px 24px;
+        gap: 32px;
+        text-align: center;
       }
       .s-detail-icon-wrap {
-        min-height: 200px;
+        min-height: 250px;
         order: -1;
+        pointer-events: none;
+      }
+      .s-detail-grid {
+        text-align: left;
+      }
+      .s-grid-item h4 {
+        margin-top: 10px;
       }
     }
 
@@ -244,7 +252,7 @@
             </div>
           </div>
           <div class="s-detail-icon-wrap tilt-wrapper" style="padding: 0; overflow: visible; background: transparent; border: none; perspective: 1500px;">
-            <img src="whatsapp_agent.png" class="tilt-effect" alt="Agente Inteligente de WhatsApp 3D" style="width: 100%; height: 100%; object-fit: cover; border-radius: 20px; opacity: 0.9;" />
+            <img src="whatsapp_agent.png" class="tilt-effect" alt="Agente Inteligente de WhatsApp 3D" loading="lazy" width="500" height="400" style="width: 100%; height: 100%; max-height: 400px; object-fit: contain; border-radius: 20px; opacity: 0.9;" />
           </div>
         </article>
 
@@ -339,7 +347,7 @@
             </div>
           </div>
           <div class="s-detail-icon-wrap tilt-wrapper" style="padding: 0; overflow: visible; background: transparent; border: none; perspective: 1500px;">
-            <img src="analise_dados.png" class="tilt-effect" alt="Análise de Dados IA e Big Data Estratégico" style="width: 100%; height: 100%; object-fit: cover; border-radius: 20px; opacity: 0.9;" />
+            <img src="analise_dados.png" class="tilt-effect" alt="Análise de Dados IA e Big Data Estratégico" loading="lazy" width="500" height="400" style="width: 100%; height: 100%; max-height: 400px; object-fit: contain; border-radius: 20px; opacity: 0.9;" />
           </div>
         </article>
       </div>
@@ -372,8 +380,8 @@
               </div>
             </div>
           </div>
-          <div class="s-detail-icon-wrap tilt-wrapper" style="padding: 0; overflow: hidden; background: transparent; border: none; perspective: 1500px; height: 500px;">
-            <img src="cientifico.jpg" class="tilt-effect" alt="IA na Pesquisa Científica - DNA Digital" style="width: 100%; height: 100%; object-fit: cover; border-radius: 20px; opacity: 0.9;" />
+          <div class="s-detail-icon-wrap tilt-wrapper" style="padding: 0; overflow: hidden; background: transparent; border: none; perspective: 1500px;">
+            <img src="cientifico.jpg" class="tilt-effect" alt="IA na Pesquisa Científica - DNA Digital" loading="lazy" width="500" height="400" style="width: 100%; height: 100%; max-height: 400px; object-fit: cover; border-radius: 20px; opacity: 0.9;" />
           </div>
         </article>
 
@@ -401,8 +409,8 @@
               </div>
             </div>
           </div>
-          <div class="s-detail-icon-wrap tilt-wrapper" style="padding: 0; overflow: hidden; background: transparent; border: none; perspective: 1500px; height: 500px;">
-            <img src="promptimage.png" class="tilt-effect" alt="Engenharia de Prompt Estruturada" style="width: 100%; height: 100%; object-fit: cover; border-radius: 20px; opacity: 0.9;" />
+          <div class="s-detail-icon-wrap tilt-wrapper" style="padding: 0; overflow: hidden; background: transparent; border: none; perspective: 1500px;">
+            <img src="promptimage.png" class="tilt-effect" alt="Engenharia de Prompt Estruturada" loading="lazy" width="500" height="400" style="width: 100%; height: 100%; max-height: 400px; object-fit: cover; border-radius: 20px; opacity: 0.9;" />
           </div>
         </article>
 
@@ -430,8 +438,8 @@
               </div>
             </div>
           </div>
-          <div class="s-detail-icon-wrap tilt-wrapper" style="padding: 0; overflow: hidden; background: transparent; border: none; perspective: 1500px; height: 500px;">
-            <img src="infoprodutos.png" class="tilt-effect" alt="Criação de Infoprodutos de Elite" style="width: 100%; height: 100%; object-fit: cover; border-radius: 20px; opacity: 0.9;" />
+          <div class="s-detail-icon-wrap tilt-wrapper" style="padding: 0; overflow: hidden; background: transparent; border: none; perspective: 1500px;">
+            <img src="infoprodutos.png" class="tilt-effect" alt="Criação de Infoprodutos de Elite" loading="lazy" width="500" height="400" style="width: 100%; height: 100%; max-height: 400px; object-fit: cover; border-radius: 20px; opacity: 0.9;" />
           </div>
         </article>
       </div>
@@ -465,7 +473,7 @@
             </div>
           </div>
           <div class="s-detail-icon-wrap tilt-wrapper" style="padding: 0; overflow: visible; background: transparent; border: none; perspective: 1500px;">
-            <img src="educacao_mentorias.png" class="tilt-effect" alt="Educação e Mentorias em IA" style="width: 100%; height: 100%; object-fit: cover; border-radius: 20px; opacity: 0.9;" />
+            <img src="educacao_mentorias.png" class="tilt-effect" alt="Educação e Mentorias em IA" loading="lazy" width="500" height="400" style="width: 100%; height: 100%; max-height: 400px; object-fit: contain; border-radius: 20px; opacity: 0.9;" />
           </div>
         </article>
 
@@ -494,7 +502,7 @@
             </div>
           </div>
           <div class="s-detail-icon-wrap tilt-wrapper" style="padding: 0; overflow: visible; background: transparent; border: none; perspective: 1500px;">
-            <img src="curadoria_treinamento.png" class="tilt-effect" alt="Fluxo de Treinamento e Curadoria de Ferramentas" style="width: 100%; height: 100%; object-fit: cover; border-radius: 20px; opacity: 0.9;" />
+            <img src="curadoria_treinamento.png" class="tilt-effect" alt="Fluxo de Treinamento e Curadoria de Ferramentas" loading="lazy" width="500" height="400" style="width: 100%; height: 100%; max-height: 400px; object-fit: contain; border-radius: 20px; opacity: 0.9;" />
           </div>
         </article>
       </div>

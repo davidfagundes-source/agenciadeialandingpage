@@ -89,7 +89,8 @@ setTimeout(checkAOS, 100);
   }
 
   function createParticles() {
-    const count = Math.min(Math.floor(W / 14), 80);
+    const isMobile = window.innerWidth < 768;
+    const count = isMobile ? 30 : Math.min(Math.floor(W / 14), 80);
     particles = Array.from({ length: count }, () => ({
       x:  randomBetween(0, W),
       y:  randomBetween(0, H),
@@ -308,9 +309,10 @@ document.head.appendChild(style);
   const container = document.getElementById('dottedSurface');
   if (!container || typeof THREE === 'undefined') return;
 
-  const SEPARATION = 150;
-  const AMOUNTX = 40;
-  const AMOUNTY = 60;
+  const isMobile = window.innerWidth < 768;
+  const SEPARATION = isMobile ? 180 : 150;
+  const AMOUNTX = isMobile ? 25 : 40;
+  const AMOUNTY = isMobile ? 35 : 60;
 
   const scene = new THREE.Scene();
   // Using an indigo darker fog tone
