@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preview: Placeholders de Elite | Zenith.IA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-dark: #02040a;
+            --purple: #a855f7;
+            --cyan: #22d3ee;
+            --amber: #f59e0b;
+            --gold: #d4af37;
+            --pink: #f472b6;
+        }
+
+        body {
+            background: var(--bg-dark);
+            color: #fff;
+            font-family: 'Inter', sans-serif;
+            padding: 40px;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .gallery-title {
+            text-align: center;
+            max-width: 800px;
+        }
+
+        .gallery-title h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            background: linear-gradient(90deg, var(--purple), var(--cyan), var(--amber));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 900;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        .card {
+            background: rgba(255,255,255,0.02);
+            border: 1px solid rgba(255,255,255,0.05);
+            border-radius: 32px;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .preview-box {
+            width: 100%;
+            height: 300px;
+            border-radius: 20px;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .label {
+            font-weight: 800;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            letter-spacing: 0.1em;
+            color: var(--cyan);
+        }
+
+        /* --- PLACEHOLDER 05: PESQUISA CIENTÍFICA --- */
+        .box-pesquisa { background: #050810; }
+        .mesh-pesquisa {
+            position: absolute; inset: 0;
+            background: radial-gradient(at 0% 0%, var(--purple) 0px, transparent 60%),
+                        radial-gradient(at 100% 100%, var(--cyan) 0px, transparent 60%);
+            opacity: 0.4; filter: blur(40px);
+            animation: mesh-float 8s infinite alternate;
+        }
+        .core-pesquisa {
+            width: 80px; height: 80px;
+            background: #fff; border-radius: 50%;
+            box-shadow: 0 0 40px var(--cyan);
+            z-index: 2;
+            animation: pulse 2s infinite;
+        }
+
+        /* --- PLACEHOLDER 06: ENGENHARIA DE PROMPT --- */
+        .box-prompt { background: #0a0805; }
+        .mesh-prompt {
+            position: absolute; inset: 0;
+            background: radial-gradient(at 0% 100%, var(--amber) 0px, transparent 60%),
+                        radial-gradient(at 100% 0%, var(--cyan) 0px, transparent 60%);
+            opacity: 0.4; filter: blur(40px);
+        }
+        .grid-prompt {
+            position: absolute; width: 100%; height: 100%;
+            background-image: radial-gradient(rgba(245, 158, 11, 0.2) 1px, transparent 1px);
+            background-size: 20px 20px;
+            z-index: 1;
+        }
+        .node-prompt {
+            width: 100px; height: 100px;
+            border: 2px solid var(--amber); border-radius: 20px;
+            z-index: 2; backdrop-filter: blur(10px);
+            display: flex; align-items: center; justify-content: center;
+            font-size: 2rem; transform: rotate(15deg);
+            animation: floating 4s infinite ease-in-out;
+        }
+
+        /* --- PLACEHOLDER 07: INFOPRODUTOS --- */
+        .box-info { background: #0a0a0a; }
+        .mesh-info {
+            position: absolute; inset: 0;
+            background: radial-gradient(at 50% 50%, var(--gold) 0px, transparent 70%);
+            opacity: 0.2; filter: blur(50px);
+        }
+        .box-3d {
+            width: 120px; height: 160px;
+            background: linear-gradient(135deg, #222, #000);
+            border: 1px solid rgba(212, 175, 55, 0.4);
+            border-radius: 12px;
+            z-index: 2; transform: perspective(1000px) rotateY(-20deg) rotateX(10deg);
+            box-shadow: 20px 20px 60px rgba(0,0,0,0.8), inset 0 0 20px rgba(212,175,55,0.1);
+            animation: floating-silk 6s infinite ease-in-out;
+            position: relative;
+        }
+        .box-3d::after {
+          content: ''; position: absolute; top: 20px; left: 15px; right: 15px; height: 2px;
+          background: var(--gold); opacity: 0.5;
+        }
+
+        @keyframes mesh-float {
+            0% { transform: scale(1) translate(0,0); }
+            100% { transform: scale(1.3) translate(5%, 5%); }
+        }
+        @keyframes pulse {
+            0% { transform: scale(0.9); opacity: 0.5; box-shadow: 0 0 20px var(--cyan); }
+            50% { transform: scale(1); opacity: 1; box-shadow: 0 0 60px var(--purple); }
+            100% { transform: scale(0.9); opacity: 0.5; box-shadow: 0 0 20px var(--cyan); }
+        }
+        @keyframes floating {
+            0%, 100% { transform: translateY(0) rotate(15deg); }
+            50% { transform: translateY(-20px) rotate(20deg); }
+        }
+        @keyframes floating-silk {
+            0%, 100% { transform: perspective(1000px) rotateY(-20deg) rotateX(10deg) translateY(0); }
+            50% { transform: perspective(1000px) rotateY(-10deg) rotateX(5deg) translateY(-15px); }
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery-title">
+        <h1>Placeholders de Luxo (Visual Dev)</h1>
+        <p>Estes efeitos substituem os ícones simples por experiências sensoriais que elevam a percepção de valor.</p>
+    </div>
+
+    <div class="container">
+        <!-- SOLUÇÃO 05 -->
+        <div class="card">
+            <span class="label">Solução 05: IA Científica</span>
+            <div class="preview-box box-pesquisa">
+                <div class="mesh-pesquisa"></div>
+                <div class="core-pesquisa"></div>
+            </div>
+            <p>Foco: Dinamismo acadêmico, bioluminescência e precisão (Roxo/Turquesa).</p>
+        </div>
+
+        <!-- SOLUÇÃO 06 -->
+        <div class="card">
+            <span class="label" style="color: var(--amber)">Solução 06: Engenharia de Prompt</span>
+            <div class="preview-box box-prompt">
+                <div class="mesh-prompt"></div>
+                <div class="grid-prompt"></div>
+                <div class="node-prompt">⌨️</div>
+            </div>
+            <p>Foco: Linguística tecnológica e inteligência de comandos (Amber/Cyan).</p>
+        </div>
+
+        <!-- SOLUÇÃO 07 -->
+        <div class="card">
+            <span class="label" style="color: var(--gold)">Solução 07: Infoprodutos de Elite</span>
+            <div class="preview-box box-info">
+                <div class="mesh-info"></div>
+                <div class="box-3d"></div>
+            </div>
+            <p>Foco: Percepção de produto físico de luxo e autoridade (Ouro/Preto).</p>
+        </div>
+    </div>
+</body>
+</html>

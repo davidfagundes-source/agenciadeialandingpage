@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nossas Soluções | Zenith.IA</title>
+  <meta name="description" content="Ecossistema completo de inteligência artificial: automação B2B, pesquisa científica e capacitação de elite." />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.82/build/spline-viewer.js"></script>
+  
+  <link rel="stylesheet" href="style.css" />
+  
+  <style>
+    /* Page Specific Overrides & Enhancements */
+    .pillar-group {
+      margin-top: 40px; 
+      margin-bottom: 80px; /* Reduced from 120px */
+    }
+    
+    .pillar-group-title {
+      font-size: 1.25rem; /* Increased from 0.85rem */
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: var(--accent-3);
+      margin-bottom: 24px; /* Reduced from 32px */
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    
+    .pillar-group-title::after {
+      content: '';
+      flex-grow: 1;
+      height: 1px;
+      background: linear-gradient(90deg, var(--border), transparent);
+    }
+
+    /* Enhanced detailed card */
+    .service-detail-card {
+      background: var(--bg-card);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 60px;
+      margin-bottom: 24px;
+      transition: var(--transition);
+      position: relative;
+      overflow: hidden; /* Restored */
+      display: grid;
+      grid-template-columns: 1fr 1.2fr; /* Restored original ratio */
+      gap: 60px;
+      align-items: center;
+    }
+
+    .service-detail-card:hover {
+      border-color: var(--border-hover);
+      transform: translateY(-5px);
+      background: var(--bg-card-hover);
+      box-shadow: var(--shadow-lg);
+    }
+    
+    .service-detail-card::before {
+      content: '';
+      position: absolute;
+      top: -50%; left: -50%;
+      width: 200%; height: 200%;
+      background: radial-gradient(circle at center, rgba(99,102,241,0.03) 0%, transparent 50%);
+      pointer-events: none;
+    }
+
+    .s-detail-info h2 {
+      font-size: clamp(2rem, 5vw, 3rem); /* Increased from 2.2rem */
+      font-weight: 900;
+      margin-bottom: 16px;
+      color: var(--text-primary);
+      letter-spacing: -0.03em;
+    }
+
+    .s-detail-num {
+      font-family: var(--font-display);
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: var(--accent-1);
+      margin-bottom: 12px;
+      display: block;
+    }
+
+    .s-detail-desc {
+      font-size: 1.1rem;
+      color: var(--text-secondary);
+      line-height: 1.7;
+      margin-bottom: 32px;
+    }
+
+    .s-detail-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+    }
+
+    .s-grid-item h4 {
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-muted);
+      margin-bottom: 16px;
+    }
+
+    .s-grid-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .s-grid-list li {
+      font-size: 0.95rem;
+      color: var(--text-primary);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .s-grid-list li::before {
+      content: '';
+      width: 6px; height: 6px;
+      background: var(--accent-3);
+      border-radius: 50%;
+      box-shadow: 0 0 10px var(--accent-3);
+    }
+
+    .s-detail-icon-wrap {
+      width: 100%;
+      height: 100%;
+      min-height: 300px;
+      background: rgba(255,255,255,0.02);
+      border-radius: var(--radius);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 8rem;
+      position: relative;
+      border: 1px solid rgba(255,255,255,0.03);
+    }
+
+    .s-detail-icon-wrap span {
+      filter: drop-shadow(0 0 30px rgba(99,102,241,0.2));
+    }
+
+    /* Reverse layout for balance */
+    .service-reverse {
+      grid-template-columns: 1.2fr 1fr !important;
+    }
+    
+    .service-reverse .s-detail-info {
+      order: 2;
+    }
+    
+    .service-reverse .s-detail-icon-wrap {
+      order: 1;
+    }
+
+    @media (max-width: 992px) {
+      .service-detail-card {
+        grid-template-columns: 1fr;
+        padding: 40px;
+        gap: 40px;
+      }
+      .s-detail-icon-wrap {
+        min-height: 200px;
+        order: -1;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .s-detail-grid {
+        grid-template-columns: 1fr;
+      }
+      .s-detail-info h2 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <span class="logo-bracket">[</span>
+        <span class="logo-text">Zenith</span>
+        <span class="logo-bracket">]</span>
+        <span class="logo-tag">.IA</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html#sobre">Sobre</a></li>
+        <li><a href="servicos.html" class="active">Serviços</a></li>
+        <li><a href="index.html#metodologia">Metodologia</a></li>
+        <li><a href="index.html#para-quem">Para Quem</a></li>
+        <li><a href="index.html#contato" class="nav-cta">Falar Conosco</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- CATALOG CONTENT -->
+  <section class="catalog-details" style="padding: 120px 0;">
+    <div class="container">
+
+      <!-- PILLAR: B2B -->
+      <div class="pillar-group" id="corporativo">
+        <div class="pillar-group-title" data-aos="fade-right">IA Corporativa & Automação</div>
+        
+        <!-- NOVO: WhatsApp Agents -->
+        <article class="service-detail-card" data-aos="fade-up">
+          <div class="s-detail-info">
+            <span class="s-detail-num">Solução 01</span>
+            <h2>Agentes Inteligentes de WhatsApp</h2>
+            <p class="s-detail-desc">Automação de alto nível para o seu canal de vendas e suporte. Criamos agentes IA capazes de engajar clientes, qualificar leads, fechar vendas e prestar suporte técnico humanizado 24/7.</p>
+            <div class="s-detail-grid">
+              <div class="s-grid-item">
+                <h4>Atuação</h4>
+                <ul class="s-grid-list">
+                  <li>Atendimento Pré e Pós-Venda</li>
+                  <li>Qualificação de Leads</li>
+                  <li>Fechamento de Vendas</li>
+                </ul>
+              </div>
+              <div class="s-grid-item">
+                <h4>Diferenciais</h4>
+                <ul class="s-grid-list">
+                  <li>Linguagem Natural Humanizada</li>
+                  <li>Disponibilidade Ininterrupta</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="s-detail-icon-wrap tilt-wrapper" style="padding: 0; overflow: visible; background: transparent; border: none; perspective: 1500px;">
+            <img src="whatsapp_agent.png" class="tilt-effect" alt="Agente Inteligente de WhatsApp 3D" style="width: 100%; height: 100%; object-fit: cover; border-radius: 20px; opacity: 0.9;" />
+          </div>
+        </article>
+
+        <!-- 7. Automação -->
+        <article class="service-detail-card service-reverse" data-aos="fade-up">
+          <div class="s-detail-info">
+            <span class="s-detail-num">Solução 02</span>
+            <h2>Automação Empresarial</h2>
+            <p class="s-detail-desc">Eliminação de gargalos burocráticos e ganhos de escala através de fluxos inteligentes. Transformamos tarefas repetitivas em ativos autônomos.</p>
+            <div class="s-detail-grid">
+              <div class="s-grid-item">
+                <h4>Entregas</h4>
+                <ul class="s-grid-list">
+                  <li>Propostas comerciais automáticas</li>
+                  <li>Auditoria documental com LLM</li>
+                  <li>Agentes de suporte internos</li>
+                </ul>
+              </div>
+              <div class="s-grid-item">
+                <h4>Stacks</h4>
+                <ul class="s-grid-list">
+                  <li>Make, Zapier & Python</li>
+                  <li>Custom Knowledge Bases</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="s-detail-icon-wrap" style="padding: 0; overflow: hidden; background: transparent;">
+            <spline-viewer
+              url="https://prod.spline.design/tMgQZnYsXIO8OSdI/scene.splinecode"
+              loading-anim-type="spinner-small-dark"
+            ></spline-viewer>
+            <div class="spline-fade"></div>
+          </div>
+        </article>
+
+        <!-- 6. SaaS -->
+        <article class="service-detail-card" data-aos="fade-up">
+          <div class="s-detail-info">
+            <span class="s-detail-num">Solução 03</span>
+            <h2>SaaS e Softwares</h2>
+            <p class="s-detail-desc">Da ideia à arquitetura lógica. Modelagem de softwares inteligentes e provas de conceito (PoC) para validar novos modelos de negócio.</p>
+            <div class="s-detail-grid">
+              <div class="s-grid-item">
+                <h4>Foco</h4>
+                <ul class="s-grid-list">
+                  <li>Especificação Técnica (PRD)</li>
+                  <li>Lógica algorítmica funcional</li>
+                  <li>Arquitetura de Modelos (LLMs)</li>
+                </ul>
+              </div>
+              <div class="s-grid-item">
+                <h4>Design</h4>
+                <ul class="s-grid-list">
+                  <li>Experiência IA (UX/UI)</li>
+                  <li>Validação de Fluxos</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="s-detail-icon-wrap" style="padding: 0; overflow: hidden; background: transparent;">
+            <spline-viewer
+              url="https://prod.spline.design/KIvExq56fCfkeilE/scene.splinecode"
+              loading-anim-type="spinner-small-dark"
+            ></spline-viewer>
+            <div class="spline-fade"></div>
+          </div>
+        </article>
+
+        <!-- 4. Dados -->
+        <article class="service-detail-card service-reverse" data-aos="fade-up">
+          <div class="s-detail-info">
+            <span class="s-detail-num">Solução 04</span>
+            <h2>Análise de Dados IA</h2>
+            <p class="s-detail-desc">Insights acionáveis a partir de grandes volumes de dados. Transformamos o Big Data em inteligência estratégica real.</p>
+            <div class="s-detail-grid">
+              <div class="s-grid-item">
+                <h4>Análise</h4>
+                <ul class="s-grid-list">
+                  <li>Estatística Multivariada</li>
+                  <li>Modelagem Preditiva</li>
+                  <li>Detecção de Padrões</li>
+                </ul>
+              </div>
+              <div class="s-grid-item">
+                <h4>Visualização</h4>
+                <ul class="s-grid-list">
+                  <li>Dashboards Dinâmicos</li>
+                  <li>Estruturação de Metadados</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="s-detail-icon-wrap tilt-wrapper" style="padding: 0; overflow: visible; background: transparent; border: none; perspective: 1500px;">
+            <img src="analise_dados.png" class="tilt-effect" alt="Análise de Dados IA e Big Data Estratégico" style="width: 100%; height: 100%; object-fit: cover; border-radius: 20px; opacity: 0.9;" />
+          </div>
+        </article>
+      </div>
+
+      <!-- PILLAR: PESQUISA -->
+      <div class="pillar-group" id="cientifico">
+        <div class="pillar-group-title" data-aos="fade-right">Pesquisa & Ativos Científicos</div>
+
+        <!-- 3. IA Acadêmica -->
+        <article class="service-detail-card" data-aos="fade-up">
+          <div class="s-detail-info">
+            <span class="s-detail-num">Solução 05</span>
+            <h2>IA na Pesquisa Científica</h2>
+            <p class="s-detail-desc">Rigor técnico e agilidade na pesquisa experimental. Potencializamos a produção acadêmica e técnica com precisão científica.</p>
+            <div class="s-detail-grid">
+              <div class="s-grid-item">
+                <h4>Frentes</h4>
+                <ul class="s-grid-list">
+                  <li>Escrita acadêmica assistida</li>
+                  <li>Análise de literatura em escala</li>
+                  <li>Planejamento de experimentos</li>
+                </ul>
+              </div>
+              <div class="s-grid-item">
+                <h4>Entregas</h4>
+                <ul class="s-grid-list">
+                  <li>Relatórios técnicos precisos</li>
+                  <li>Aceleração de Publicações</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="s-detail-icon-wrap tilt-wrapper" style="padding: 0; overflow: hidden; background: transparent; border: none; perspective: 1500px; height: 500px;">
+            <img src="cientifico.jpg" class="tilt-effect" alt="IA na Pesquisa Científica - DNA Digital" style="width: 100%; height: 100%; object-fit: cover; border-radius: 20px; opacity: 0.9;" />
+          </div>
+        </article>
+
+        <!-- 1. Engenharia de Prompt -->
+        <article class="service-detail-card service-reverse" data-aos="fade-up">
+          <div class="s-detail-info">
+            <span class="s-detail-num">Solução 06</span>
+            <h2>Engenharia de Prompt</h2>
+            <p class="s-detail-desc">Arquitetura profissional de comandos para extrair o máximo de performance de modelos como GPT-4, Claude 3.5 e Gemini Pro.</p>
+            <div class="s-detail-grid">
+              <div class="s-grid-item">
+                <h4>Especialidade</h4>
+                <ul class="s-grid-list">
+                  <li>Prompts Estruturados</li>
+                  <li>Chain-of-Thought Design</li>
+                  <li>Bibliotecas de Contexto</li>
+                </ul>
+              </div>
+              <div class="s-grid-item">
+                <h4>Uso</h4>
+                <ul class="s-grid-list">
+                  <li>Workflows Padronizados</li>
+                  <li>Redução de Alucinações</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="s-detail-icon-wrap tilt-wrapper" style="padding: 0; overflow: hidden; background: transparent; border: none; perspective: 1500px; height: 500px;">
+            <img src="promptimage.png" class="tilt-effect" alt="Engenharia de Prompt Estruturada" style="width: 100%; height: 100%; object-fit: cover; border-radius: 20px; opacity: 0.9;" />
+          </div>
+        </article>
+
+        <!-- 5. Infoprodutos -->
+        <article class="service-detail-card" data-aos="fade-up">
+          <div class="s-detail-info">
+            <span class="s-detail-num">Solução 07</span>
+            <h2>Infoprodutos de Elite</h2>
+            <p class="s-detail-desc">Criação de materiais premium (cursos e e-books) com velocidade industrial e qualidade artesanal para autoridade instantânea.</p>
+            <div class="s-detail-grid">
+              <div class="s-grid-item">
+                <h4>Capacidades</h4>
+                <ul class="s-grid-list">
+                  <li>Roteirização Técnica</li>
+                  <li>Diagramação Assistida por IA</li>
+                  <li>Animações Científicas</li>
+                </ul>
+              </div>
+              <div class="s-grid-item">
+                <h4>Objetivo</h4>
+                <ul class="s-grid-list">
+                  <li>Lançamentos Ágeis</li>
+                  <li>Percepção de Valor Premium</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="s-detail-icon-wrap tilt-wrapper" style="padding: 0; overflow: hidden; background: transparent; border: none; perspective: 1500px; height: 500px;">
+            <img src="infoprodutos.png" class="tilt-effect" alt="Criação de Infoprodutos de Elite" style="width: 100%; height: 100%; object-fit: cover; border-radius: 20px; opacity: 0.9;" />
+          </div>
+        </article>
+      </div>
+
+      <!-- PILLAR: EDUCAÇÃO -->
+      <div class="pillar-group" id="educacao">
+        <div class="pillar-group-title" data-aos="fade-right">Capacitação & Toolset imersivo</div>
+
+        <!-- 8. Educação -->
+        <article class="service-detail-card service-reverse" data-aos="fade-up">
+          <div class="s-detail-info">
+            <span class="s-detail-num">Solução 08</span>
+            <h2>Educação e Mentorias</h2>
+            <p class="s-detail-desc">Treinamentos imersivos para transformar equipes em potências produtivas orientadas por IA. Foco em resultados imediatos.</p>
+            <div class="s-detail-grid">
+              <div class="s-grid-item">
+                <h4>Formatos</h4>
+                <ul class="s-grid-list">
+                  <li>Workshops In-Company</li>
+                  <li>Mentoria C-Level</li>
+                  <li>Bootcamps de Produtividade</li>
+                </ul>
+              </div>
+              <div class="s-grid-item">
+                <h4>Nível</h4>
+                <ul class="s-grid-list">
+                  <li>Estratégico & Operacional</li>
+                  <li>Cultura Tech-First</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="s-detail-icon-wrap tilt-wrapper" style="padding: 0; overflow: visible; background: transparent; border: none; perspective: 1500px;">
+            <img src="educacao_mentorias.png" class="tilt-effect" alt="Educação e Mentorias em IA" style="width: 100%; height: 100%; object-fit: cover; border-radius: 20px; opacity: 0.9;" />
+          </div>
+        </article>
+
+        <!-- 2. Ferramentas -->
+        <article class="service-detail-card" data-aos="fade-up">
+          <div class="s-detail-info">
+            <span class="s-detail-num">Solução 09</span>
+            <h2>Curadoria de Ferramentas</h2>
+            <p class="s-detail-desc">Implementação e curadoria das melhores ferramentas do mercado para o seu fluxo operacional específico, otimizando custos e tempo.</p>
+            <div class="s-detail-grid">
+              <div class="s-grid-item">
+                <h4>Stack</h4>
+                <ul class="s-grid-list">
+                  <li>LLMs (ChatGPT, Claude)</li>
+                  <li>Busca (Consensus, Perplexity)</li>
+                  <li>Code (Lovable, Manus)</li>
+                </ul>
+              </div>
+              <div class="s-grid-item">
+                <h4>Gestão</h4>
+                <ul class="s-grid-list">
+                  <li>Otimização de Assinaturas</li>
+                  <li>Treinamento de Uso</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="s-detail-icon-wrap tilt-wrapper" style="padding: 0; overflow: visible; background: transparent; border: none; perspective: 1500px;">
+            <img src="curadoria_treinamento.png" class="tilt-effect" alt="Fluxo de Treinamento e Curadoria de Ferramentas" style="width: 100%; height: 100%; object-fit: cover; border-radius: 20px; opacity: 0.9;" />
+          </div>
+        </article>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- BOTTOM WRAPPER -->
+  <div class="bottom-group" style="position: relative; overflow: hidden;">
+    <div id="dottedSurface" class="dotted-surface"></div>
+
+    <!-- CTA FINAL / CONTATO -->
+    <section class="cta-final" id="contato">
+      <div class="cta-bg">
+        <div class="cta-orb cta-orb-1"></div>
+        <div class="cta-orb cta-orb-2"></div>
+      </div>
+      <div class="container">
+        <div class="cta-content" data-aos="fade-up">
+          <div class="sobre-label" style="text-align:center; display:block; margin-bottom: 32px;">Próximo Passo</div>
+          <h2 class="cta-title">
+            IA não é sobre ferramentas.<br />
+            <span class="gradient-prism">É sobre arquitetura e estratégia.</span>
+          </h2>
+          <p class="cta-subtitle">Vamos estruturar o futuro do seu projeto com inteligência real.</p>
+          <div class="cta-actions" style="margin-top: 40px;">
+            <a href="https://wa.me/5551997003453?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20conversa%20estrat%C3%A9gica%20sobre%20IA." class="btn btn-primary btn-lg" target="_blank" rel="noopener noreferrer">
+              Agendar Diagnóstico Gratuito
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-inner">
+          <div class="footer-brand">
+            <div class="nav-logo">
+              <span class="bracket">[</span> Zenith<span class="bracket">]</span><span class="dot">.IA</span>
+            </div>
+            <p>Estratégia · Automação · Elite</p>
+          </div>
+          <div class="footer-links">
+            <a href="index.html#sobre">Sobre</a>
+            <a href="servicos.html">Soluções</a>
+            <a href="index.html#metodologia">Processo</a>
+            <a href="https://wa.me/5551997003453" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2026 Zenith.IA · David Fagundes</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <style>
+    .tilt-effect {
+      transition: transform 0.15s ease-out;
+      transform-style: preserve-3d;
+      box-shadow: 0 25px 50px rgba(0,0,0,0.6);
+      animation: float-idle 5s ease-in-out infinite;
+      cursor: grab;
+    }
+    .tilt-effect:active {
+      cursor: grabbing;
+    }
+    @keyframes float-idle {
+      0% { transform: translateY(0px) rotateX(3deg) rotateY(-3deg); }
+      50% { transform: translateY(-15px) rotateX(-3deg) rotateY(3deg); }
+      100% { transform: translateY(0px) rotateX(3deg) rotateY(-3deg); }
+    }
+  </style>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const tiltElements = document.querySelectorAll('.tilt-effect');
+      
+      tiltElements.forEach(el => {
+        el.addEventListener('mousemove', (e) => {
+          // Pause the CSS animation so manual rotation works exclusively
+          el.style.animation = 'none';
+          
+          const rect = el.getBoundingClientRect();
+          const x = e.clientX - rect.left; 
+          const y = e.clientY - rect.top;  
+          const centerX = rect.width / 2;
+          const centerY = rect.height / 2;
+          
+          // Max rotation of 12 degrees for an elegant 3D pop
+          const rotateX = ((y - centerY) / centerY) * -12; 
+          const rotateY = ((x - centerX) / centerX) * 12;
+          
+          el.style.transform = `scale(1.03) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+        });
+        
+        el.addEventListener('mouseleave', () => {
+          // Restart transform tracking and reset idle float animation
+          el.style.transform = ``;
+          el.style.animation = 'float-idle 5s ease-in-out infinite';
+        });
+      });
+    });
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

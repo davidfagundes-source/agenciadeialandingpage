@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zenith.IA | Agência de Inteligência Artificial</title>
+  <meta name="description" content="Aplicação estratégica de IA em negócios, pesquisa científica e desenvolvimento de produtos digitais. Engenharia de Prompt, Automação Empresarial, SaaS e Capacitação." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.82/build/spline-viewer.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Light Theme Overrides */
+    :root {
+      --bg-dark: #f8fafc; /* Light slate background */
+      --bg-card: rgba(255, 255, 255, 0.7);
+      --bg-card-hover: rgba(255, 255, 255, 0.95);
+      --border: rgba(99, 102, 241, 0.15);
+      --border-hover: rgba(99, 102, 241, 0.4);
+
+      /* Adjusted Vivid Prism Palette for High Contrast Light Mode */
+      --accent-1: #4f46e5;   /* indigo */
+      --accent-2: #9333ea;   /* purple */
+      --accent-3: #0284c7;   /* light blue */
+      --accent-4: #e11d48;   /* pink */
+
+      --gradient-glass: linear-gradient(135deg, rgba(255,255,255,0.8), rgba(255,255,255,0.3));
+
+      --text-primary: #0f172a;
+      --text-secondary: #475569;
+      --text-muted: #64748b;
+
+      --font-display: 'Outfit', sans-serif;
+      
+      --shadow-sm: 0 4px 12px rgba(0,0,0,0.03);
+      --shadow-md: 0 12px 32px rgba(0,0,0,0.05);
+      --shadow-lg: 0 24px 64px rgba(0,0,0,0.08);
+      --shadow-prism: 0 8px 32px rgba(99, 102, 241, 0.2);
+    }
+
+    body {
+      background: var(--bg-dark);
+    }
+
+    /* Inverse canvas particles since JS draws them white */
+    .particles-canvas {
+      filter: invert(1) opacity(0.3);
+    }
+
+    /* Navbar light mode */
+    .navbar {
+      background: rgba(255, 255, 255, 0.5);
+      border-color: rgba(0,0,0,0.05);
+    }
+    .navbar.scrolled {
+      background: rgba(255, 255, 255, 0.9);
+    }
+    
+    /* Logo tags */
+    .logo-tag {
+      color: #fff;
+    }
+
+    /* Buttons */
+    .btn-secondary {
+      background: rgba(0, 0, 0, 0.03);
+      color: var(--text-primary);
+      border-color: rgba(0,0,0,0.1);
+    }
+    .btn-secondary:hover {
+      background: rgba(0, 0, 0, 0.08);
+      border-color: rgba(0,0,0,0.2);
+    }
+
+    /* Step numbers in Methodology */
+    .step-number {
+      color: rgba(0,0,0,0.04);
+    }
+
+    /* Logos inside marquee */
+    .tool-logo-item img {
+      filter: brightness(0);
+      opacity: 0.5;
+    }
+    .tool-logo-item:hover img {
+      filter: brightness(0);
+      opacity: 0.9;
+    }
+    
+    /* Ensure the portrait border stands out cleanly */
+    .portrait-border {
+      border-color: var(--border-hover);
+    }
+    .tech-tag {
+      background: rgba(255,255,255,0.9);
+      color: var(--text-primary);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow-sm);
+    }
+
+    /* Gradient texts - Darken bounds for legibility */
+    .gradient-text, .section-title .gradient-prism, .cta-title .gradient-prism {
+      background: linear-gradient(90deg, #4f46e5, #0284c7, #e11d48, #9333ea);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar-track { background: #f1f5f9; }
+    ::-webkit-scrollbar-thumb { background: #94a3b8; }
+    
+    /* Detail cards background */
+    .method-step {
+      background: rgba(0,0,0,0.01);
+    }
+
+    /* Spline fade overlays adapted for light mode */
+    .spline-fade {
+      background: radial-gradient(circle at center, transparent 20%, var(--bg-dark) 90%);
+    }
+    .spline-fade-bottom {
+      background: linear-gradient(to top, var(--bg-dark) 0%, transparent 100%);
+    }
+
+    .grid-overlay {
+      background-image:
+        linear-gradient(rgba(79, 70, 229, 0.08) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(79, 70, 229, 0.08) 1px, transparent 1px);
+    }
+
+    /* CTA Bottom Orbs adjustments */
+    .cta-orb {
+      opacity: 0.15;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-bracket">[</span>
+        <span class="logo-text">Zenith</span>
+        <span class="logo-bracket">]</span>
+        <span class="logo-tag">.IA</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="servicos.html">Serviços</a></li>
+        <li><a href="#metodologia">Metodologia</a></li>
+        <li><a href="#para-quem">Para Quem</a></li>
+        <li><a href="#contato" class="nav-cta">Falar Conosco</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="grid-overlay"></div>
+      <canvas class="particles-canvas" id="particlesCanvas"></canvas>
+    </div>
+
+    <div class="container">
+      <div class="hero-split">
+        <!-- Left: Content -->
+        <div class="hero-content" data-aos="fade-right" data-aos-duration="1200">
+
+          
+          <h1 class="hero-title">
+            <span class="title-top">Inteligência Artificial</span>
+            <span class="title-main">com Estratégia</span>
+          </h1>
+          
+          <p class="hero-subtitle">
+            Arquitetando sistemas inteligentes que automatizam, comunicam e geram valor real para negócios e pesquisa.
+          </p>
+  
+          <div class="hero-actions">
+            <a href="#contato" class="btn btn-primary">
+              <span class="btn-icon">⚡</span>
+              Diagnóstico Gratuito
+            </a>
+            <a href="servicos.html" class="btn btn-secondary">
+              Ver Soluções
+            </a>
+          </div>
+  
+
+        </div>
+
+        <!-- Right: Visual (Robot) -->
+        <div class="hero-visual" data-aos="fade-left" data-aos-duration="1200">
+          <spline-viewer
+            url="https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode"
+            loading-anim-type="spinner-small-dark"
+          ></spline-viewer>
+          <div class="spline-fade"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="sobre" id="sobre">
+    <div class="container">
+      <div class="sobre-split">
+        <!-- LEFT: Portrait Composition -->
+        <div class="sobre-visual" data-aos="fade-right">
+          <div class="portrait-wrapper floating">
+            <img src="david-highres.jpg" alt="David Fagundes" class="portrait-img">
+            <div class="portrait-border"></div>
+            <div class="portrait-glow"></div>
+          </div>
+        </div>
+
+        <!-- RIGHT: Content -->
+        <div class="sobre-content" data-aos="fade-left">
+          <div class="sobre-label">Expertise & Visão</div>
+          <h2 class="section-title">David Fagundes</h2>
+          <p class="sobre-lead">Estrategista de IA focado em transformar complexidade técnica em vantagem competitiva real.</p>
+          
+          <div class="sobre-bio">
+            <p>Com mais de 12 anos de experiência na intersecção entre tecnologia e negócios, ajudo empresas a navegarem na fronteira da Inteligência Artificial Generativa e Automação Inteligente.</p>
+            <p>Minha abordagem combina o rigor da pesquisa científica com a agilidade do desenvolvimento ágil, criando solutions que não apenas impressionam, mas escalam e performam.</p>
+          </div>
+
+          <div class="sobre-stats">
+            <div class="s-stat">
+              <span class="s-num">12+</span>
+              <span class="s-txt">Anos XP</span>
+            </div>
+            <div class="s-stat">
+              <span class="s-num">50+</span>
+              <span class="s-txt">Projetos IA</span>
+            </div>
+            <div class="s-stat">
+              <span class="s-num">1M+</span>
+              <span class="s-txt">Tokens/Dia</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ÁREAS DE ATUAÇÃO -->
+  <!-- ÁREAS DE ATUACAO (PILARES) -->
+  <section class="pilares" id="areas">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <div class="sobre-label">Nossos Pilares</div>
+        <h2 class="section-title nowrap">Soluções de <span class="gradient-prism">Elite em IA</span></h2>
+        <p class="section-subtitle">Arquiteturas inteligentes desenhadas para escalar negócios, acelerar pesquisas e capacitar lideranças.</p>
+      </div>
+
+      <div class="pillars-grid">
+        <!-- Pillar 1 -->
+        <div class="pillar-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="pillar-icon">🏢</div>
+          <h3>IA Corporativa &<br>Automação B2B</h3>
+          <p>Transformamos fluxos complexos em sistemas autônomos. De PoCs a soluções SaaS escaláveis, focamos em ROI imediato.</p>
+          <ul class="pillar-list">
+            <li>Agentes Autônomos de Operação</li>
+            <li>RAG & Bases de Conhecimento Privadas</li>
+            <li>Integração de LLMs no Core Business</li>
+          </ul>
+          <a href="servicos.html#corporativo" class="btn btn-secondary">Explorar B2B</a>
+        </div>
+
+        <!-- Pillar 2 -->
+        <div class="pillar-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="pillar-icon">🔬</div>
+          <h3>Pesquisa & Ativos<br>Científicos</h3>
+          <p>Potencializamos a produção acadêmica e técnica. Rigor científico unido à velocidade da IA Generativa.</p>
+          <ul class="pillar-list">
+            <li>Escrita Acadêmica Assistida por IA</li>
+            <li>Análise Preditiva de Dados</li>
+            <li>Criação de Infoprodutos de Alto Nível</li>
+          </ul>
+          <a href="servicos.html#cientifico" class="btn btn-secondary">Ver Pesquisa</a>
+        </div>
+
+        <!-- Pillar 3 -->
+        <div class="pillar-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="pillar-icon">🎓</div>
+          <h3>Educação &<br>Capacitação IA</h3>
+          <p>Preparamos equipes e executivos para a nova era. Mentorias práticas focadas em resultados reais.</p>
+          <ul class="pillar-list">
+            <li>Formação em Prompt Engineering</li>
+            <li>Masterclasses para C-Level</li>
+            <li>Workshops de Produtividade Avançada</li>
+          </ul>
+          <a href="servicos.html#educacao" class="btn btn-secondary">Conhecer Formação</a>
+        </div>
+      </div>
+
+      <!-- TOOLS SHOWCASE (Infinite Marquee) -->
+      <div class="tools-showcase" data-aos="fade-up">
+        <div class="container">
+          <div class="sobre-label" style="text-align: center; margin-bottom: 40px;">Seleção de ferramentas especializadas para soluções personalizadas</div>
+          <div class="marquee-container">
+            <div class="marquee-content">
+              <!-- Logos Loop (Sequence 1) -->
+              <div class="tool-logo-item"><img src="tools/chatgpt.png" alt="ChatGPT"></div>
+              <div class="tool-logo-item"><img src="tools/NotebookLM_logo.svg.png" alt="NotebookLM"></div>
+              <div class="tool-logo-item logo-boost"><img src="tools/googleaistudio.png" alt="Google AI Studio"></div>
+              <div class="tool-logo-item"><img src="tools/lovable.svg" alt="Lovable"></div>
+              <div class="tool-logo-item logo-boost"><img src="tools/manus.png" alt="Manus"></div>
+              <div class="tool-logo-item logo-boost"><img src="tools/consensus.png" alt="Consensus"></div>
+              <div class="tool-logo-item"><img src="tools/genspark.png" alt="Genspark"></div>
+              <div class="tool-logo-item"><img src="tools/Google_Antigravity_Logo.svg.png" alt="Google Antigravity"></div>
+              <!-- Duplicate (Sequence 2) -->
+              <div class="tool-logo-item"><img src="tools/chatgpt.png" alt="ChatGPT"></div>
+              <div class="tool-logo-item"><img src="tools/NotebookLM_logo.svg.png" alt="NotebookLM"></div>
+              <div class="tool-logo-item logo-boost"><img src="tools/googleaistudio.png" alt="Google AI Studio"></div>
+              <div class="tool-logo-item"><img src="tools/lovable.svg" alt="Lovable"></div>
+              <div class="tool-logo-item logo-boost"><img src="tools/manus.png" alt="Manus"></div>
+              <div class="tool-logo-item logo-boost"><img src="tools/consensus.png" alt="Consensus"></div>
+              <div class="tool-logo-item"><img src="tools/genspark.png" alt="Genspark"></div>
+              <div class="tool-logo-item"><img src="tools/Google_Antigravity_Logo.svg.png" alt="Google Antigravity"></div>
+              <!-- Duplicate (Sequence 3) -->
+              <div class="tool-logo-item"><img src="tools/chatgpt.png" alt="ChatGPT"></div>
+              <div class="tool-logo-item"><img src="tools/NotebookLM_logo.svg.png" alt="NotebookLM"></div>
+              <div class="tool-logo-item logo-boost"><img src="tools/googleaistudio.png" alt="Google AI Studio"></div>
+              <div class="tool-logo-item"><img src="tools/lovable.svg" alt="Lovable"></div>
+              <div class="tool-logo-item logo-boost"><img src="tools/manus.png" alt="Manus"></div>
+              <div class="tool-logo-item logo-boost"><img src="tools/consensus.png" alt="Consensus"></div>
+              <div class="tool-logo-item"><img src="tools/genspark.png" alt="Genspark"></div>
+              <div class="tool-logo-item"><img src="tools/Google_Antigravity_Logo.svg.png" alt="Google Antigravity"></div>
+              <!-- Duplicate (Sequence 4) -->
+              <div class="tool-logo-item"><img src="tools/chatgpt.png" alt="ChatGPT"></div>
+              <div class="tool-logo-item"><img src="tools/NotebookLM_logo.svg.png" alt="NotebookLM"></div>
+              <div class="tool-logo-item logo-boost"><img src="tools/googleaistudio.png" alt="Google AI Studio"></div>
+              <div class="tool-logo-item"><img src="tools/lovable.svg" alt="Lovable"></div>
+              <div class="tool-logo-item logo-boost"><img src="tools/manus.png" alt="Manus"></div>
+              <div class="tool-logo-item logo-boost"><img src="tools/consensus.png" alt="Consensus"></div>
+              <div class="tool-logo-item"><img src="tools/genspark.png" alt="Genspark"></div>
+              <div class="tool-logo-item"><img src="tools/Google_Antigravity_Logo.svg.png" alt="Google Antigravity"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- METODOLOGIA -->
+  <!-- METODOLOGIA (PROCESSO) -->
+  <section class="metodologia" id="metodologia">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <div class="sobre-label">Estratégia & Fluxo</div>
+        <h2 class="section-title">Nossa <span class="gradient-prism">Metodologia</span></h2>
+        <p class="section-subtitle">Um processo rigoroso focado em transformar ideias em ativos reais de IA.</p>
+      </div>
+
+      <div class="metodologia-steps">
+        <!-- Step 1 -->
+        <div class="method-step" data-aos="fade-up" data-aos-delay="100">
+          <div class="step-icon">🔍</div>
+          <div class="step-content">
+            <h4>Diagnóstico Estratégico</h4>
+            <p>Mapeamos seus processos e identificamos os gargalos onde a IA trará o maior retorno sobre investimento (ROI).</p>
+          </div>
+          <div class="step-number">01</div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="method-step" data-aos="fade-up" data-aos-delay="200">
+          <div class="step-icon">🏗️</div>
+          <div class="step-content">
+            <h4>Arquitetura de Solução</h4>
+            <p>Desenhamos o ecossistema ideal: seleção de modelos, engenharia de prompt e fluxos de automação customizados.</p>
+          </div>
+          <div class="step-number">02</div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="method-step" data-aos="fade-up" data-aos-delay="300">
+          <div class="step-icon">⚡</div>
+          <div class="step-content">
+            <h4>Implementação Ágil</h4>
+            <p>Desenvolvimento focado em estabilidade e segurança, garantindo que a solução seja robusta e pronta para escala.</p>
+          </div>
+          <div class="step-number">03</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARA QUEM -->
+  <section class="para-quem" id="para-quem">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <div class="sobre-label">Público-Alvo</div>
+        <h2 class="section-title nowrap">Para Quem <span class="gradient-prism">Construímos</span></h2>
+      </div>
+
+      <div class="audiences-grid">
+        <div class="audience-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="a-icon">🏢</div>
+          <h4>Líderes & C-Levels</h4>
+          <p>Executivos que buscam modernizar a operação e reduzir custos operacionais através de automações inteligentes.</p>
+        </div>
+        <div class="audience-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="a-icon">🔬</div>
+          <h4>Pesquisadores & Acadêmicos</h4>
+          <p>Profissionais que precisam de rigor técnico e agilidade na síntese e produção de ativos de conhecimento.</p>
+        </div>
+        <div class="audience-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="a-icon">🚀</div>
+          <h4>Startups Tech-First</h4>
+          <p>Fundadores que desejam embutir inteligência artificial nativa no core do seu produto desde o dia um.</p>
+        </div>
+        <div class="audience-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="a-icon">📊</div>
+          <h4>Gestores de Dados</h4>
+          <p>Especialistas que precisam extrair valor real de bases de dados volumosas usando LLMs e RAG.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOTTOM WRAPPER -->
+  <div class="bottom-group" style="position: relative; overflow: hidden;">
+    <div id="dottedSurface" class="dotted-surface"></div>
+
+    <!-- CTA FINAL / CONTATO -->
+    <section class="cta-final" id="contato">
+    <div class="cta-bg">
+      <div class="cta-orb cta-orb-1"></div>
+      <div class="cta-orb cta-orb-2"></div>
+    </div>
+    <div class="container">
+      <div class="cta-content" data-aos="fade-up">
+        <div class="sobre-label" style="text-align:center; display:block; margin-bottom: 32px;">Próximo Passo</div>
+        <h2 class="cta-title">
+          IA não é sobre ferramentas.<br />
+          <span class="gradient-prism">É sobre arquitetura e estratégia.</span>
+        </h2>
+        <p class="cta-subtitle">Vamos estruturar o futuro do seu projeto com inteligência real.</p>
+        <div class="cta-actions">
+          <a href="https://wa.me/5551997003453?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20conversa%20estrat%C3%A9gica%20sobre%20IA." class="btn btn-primary btn-lg" target="_blank" rel="noopener noreferrer">
+            Agendar Diagnóstico Gratuito
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <div class="nav-logo">
+            <span class="bracket">[</span> Zenith<span class="bracket">]</span><span class="dot">.IA</span>
+          </div>
+          <p>Estratégia · Automação · Elite</p>
+        </div>
+        <div class="footer-links">
+          <a href="#sobre">Sobre</a>
+          <a href="#areas">Soluções</a>
+          <a href="#metodologia">Processo</a>
+          <a href="https://wa.me/5551997003453" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Zenith.IA · David Fagundes</p>
+      </div>
+    </div>
+  </footer>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+Prompt para instalar o MCP do NotebookLM no seu Antigravity:
+Instale e configure o MCP server do NotebookLM para mim:
+Instale o pacote notebooklm-mcp-server usando uv (ou pip se o uv não estiver disponível)
+Adicione ele no meu arquivo de configuração do MCP (geralmente em
+~/.config/opencode/opencode.json ou similar)
+Execute o comando de autenticação (notebooklm-mcp-auth) e abra o navegador para
+autorizar
+Verifique se a instalação está funcionando listando os meus notebooks do NotebookLM
+Certifique-se de:
+ Usar o método de instalação correto para o meu sistema
+ Configurar o MCP server corretamente no meu arquivo de configuração
+ Me guiar pelo processo de autenticação no navegador
+ Confirmar que tudo está funcionando no final
+Quando terminar, você deve adicionar aqui: @mcp_config.json
+Pode ser necessário garantir que o usuário esteja deslogado do navegador antes de fazer isso.

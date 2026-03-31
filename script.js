@@ -242,30 +242,65 @@ document.head.appendChild(style);
   setTimeout(type, 900);
 })();
 
-// ── REMOVE SPLINE WATERMARK ─────────────────────
+// ── REMOVE SPLINE WATERMARK (Robust) ────────────
 (function removeSplineLogo() {
   const splineViewer = document.querySelector('spline-viewer');
   if (!splineViewer) return;
 
-  const tryRemove = () => {
-    const shadow = splineViewer.shadowRoot;
-    if (shadow) {
-      const logo = shadow.querySelector('#logo');
-      if (logo) {
-        logo.style.display = 'none';
-        return true;
+  const hideAndDisable = (shadow) => {
+    // 1. Inject CSS directly into the Shadow DOM to hide the logo permanently
+    if (!shadow.querySelector('#spline-hide-style')) {
+      const style = document.createElement('style');
+      style.id = 'spline-hide-style';
+      style.textContent = '#logo { display: none !important; visibility: hidden !important; pointer-events: none !important; }';
+      shadow.appendChild(style);
+    }
+
+    // 2. Also remove the element and disable any links
+    const logo = shadow.querySelector('#logo');
+    if (logo) {
+      logo.style.display = 'none';
+      logo.style.visibility = 'hidden';
+      logo.style.pointerEvents = 'none';
+      // Remove href from any anchor tags to prevent redirection
+      if (logo.tagName === 'A') {
+        logo.removeAttribute('href');
+        logo.removeAttribute('target');
       }
+      const anchors = logo.querySelectorAll('a');
+      anchors.forEach(a => {
+        a.removeAttribute('href');
+        a.removeAttribute('target');
+        a.addEventListener('click', e => e.preventDefault(), true);
+      });
+      return true;
     }
     return false;
   };
 
+  // Strategy 1: Polling (fast initial check)
   let attempts = 0;
   const interval = setInterval(() => {
-    if (tryRemove() || attempts > 25) {
+    const shadow = splineViewer.shadowRoot;
+    if (shadow && hideAndDisable(shadow)) {
       clearInterval(interval);
     }
-    attempts++;
+    if (++attempts > 150) clearInterval(interval); // 30 seconds max
   }, 200);
+
+  // Strategy 2: MutationObserver on the shadow root (catches re-renders)
+  const watchShadow = () => {
+    const shadow = splineViewer.shadowRoot;
+    if (!shadow) return setTimeout(watchShadow, 100);
+
+    const observer = new MutationObserver(() => {
+      hideAndDisable(shadow);
+    });
+    observer.observe(shadow, { childList: true, subtree: true });
+    // Initial attempt
+    hideAndDisable(shadow);
+  };
+  watchShadow();
 })();
 
 // ── THREE.JS DOTTED SURFACE ─────────────────────
