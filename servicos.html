@@ -137,7 +137,7 @@
     .s-detail-icon-wrap {
       width: 100%;
       height: 100%;
-      min-height: 300px;
+      min-height: 350px;
       background: rgba(255,255,255,0.02);
       border-radius: var(--radius);
       display: flex;
@@ -146,15 +146,31 @@
       font-size: 8rem;
       position: relative;
       border: 1px solid rgba(255,255,255,0.03);
+      overflow: hidden;
+    }
+
+    .s-detail-icon-wrap img {
+      width: 100%;
+      height: 100%;
+      max-height: 500px;
+      object-fit: contain;
+      border-radius: var(--radius);
+      opacity: 0.95;
+      transition: var(--transition);
+    }
+    
+    .s-detail-icon-wrap:hover img {
+      transform: scale(1.05);
+      opacity: 1;
     }
 
     .s-detail-icon-wrap span {
-      filter: drop-shadow(0 0 30px rgba(99,102,241,0.2));
+      filter: drop-shadow(0 0 40px rgba(99,102,241,0.3));
     }
 
     /* Reverse layout for balance */
     .service-reverse {
-      grid-template-columns: 1.2fr 1fr !important;
+      grid-template-columns: 1.2fr 1fr;
     }
     
     .service-reverse .s-detail-info {
@@ -165,32 +181,54 @@
       order: 1;
     }
 
+    @media (max-width: 1100px) {
+      .service-detail-card {
+        gap: 40px;
+        padding: 40px;
+      }
+    }
+
     @media (max-width: 992px) {
       .service-detail-card {
-        grid-template-columns: 1fr;
-        padding: 32px 24px;
-        gap: 32px;
+        grid-template-columns: 1fr !important; /* Force stack on all */
+        padding: 40px 24px;
+        gap: 48px;
         text-align: center;
       }
+      .s-detail-info {
+        order: 2 !important;
+      }
       .s-detail-icon-wrap {
-        min-height: 250px;
-        order: -1;
+        min-height: 300px;
+        max-height: 400px;
+        order: 1 !important;
         pointer-events: none;
+        background: transparent;
+        border: none;
       }
       .s-detail-grid {
         text-align: left;
+        gap: 24px;
       }
-      .s-grid-item h4 {
-        margin-top: 10px;
+      .s-detail-info h2 {
+        font-size: 2.2rem;
+        margin-top: 20px;
       }
     }
 
     @media (max-width: 600px) {
       .s-detail-grid {
         grid-template-columns: 1fr;
+        gap: 32px;
       }
       .s-detail-info h2 {
         font-size: 1.8rem;
+      }
+      .s-detail-info {
+        padding: 0 10px;
+      }
+      .pillar-group-title {
+        font-size: 1.1rem;
       }
     }
   </style>
@@ -251,8 +289,8 @@
               </div>
             </div>
           </div>
-          <div class="s-detail-icon-wrap tilt-wrapper" style="padding: 0; overflow: visible; background: transparent; border: none; perspective: 1500px;">
-            <img src="whatsapp_agent.png" class="tilt-effect" alt="Agente Inteligente de WhatsApp 3D" loading="lazy" width="500" height="400" style="width: 100%; height: 100%; max-height: 400px; object-fit: contain; border-radius: 20px; opacity: 0.9;" />
+          <div class="s-detail-icon-wrap tilt-wrapper">
+            <img src="whatsapp_agent.png" class="tilt-effect" alt="Agente Inteligente de WhatsApp 3D" loading="lazy" width="500" height="400" />
           </div>
         </article>
 
@@ -280,7 +318,7 @@
               </div>
             </div>
           </div>
-          <div class="s-detail-icon-wrap" style="padding: 0; overflow: hidden; background: transparent;">
+          <div class="s-detail-icon-wrap">
             <spline-viewer
               url="https://prod.spline.design/tMgQZnYsXIO8OSdI/scene.splinecode"
               loading-anim-type="spinner-small-dark"
@@ -313,7 +351,7 @@
               </div>
             </div>
           </div>
-          <div class="s-detail-icon-wrap" style="padding: 0; overflow: hidden; background: transparent;">
+          <div class="s-detail-icon-wrap">
             <spline-viewer
               url="https://prod.spline.design/KIvExq56fCfkeilE/scene.splinecode"
               loading-anim-type="spinner-small-dark"
@@ -346,8 +384,8 @@
               </div>
             </div>
           </div>
-          <div class="s-detail-icon-wrap tilt-wrapper" style="padding: 0; overflow: visible; background: transparent; border: none; perspective: 1500px;">
-            <img src="analise_dados.png" class="tilt-effect" alt="Análise de Dados IA e Big Data Estratégico" loading="lazy" width="500" height="400" style="width: 100%; height: 100%; max-height: 400px; object-fit: contain; border-radius: 20px; opacity: 0.9;" />
+          <div class="s-detail-icon-wrap tilt-wrapper">
+            <img src="analise_dados.png" class="tilt-effect" alt="Análise de Dados IA e Big Data Estratégico" loading="lazy" width="500" height="400" />
           </div>
         </article>
       </div>
@@ -380,8 +418,8 @@
               </div>
             </div>
           </div>
-          <div class="s-detail-icon-wrap tilt-wrapper" style="padding: 0; overflow: hidden; background: transparent; border: none; perspective: 1500px;">
-            <img src="cientifico.jpg" class="tilt-effect" alt="IA na Pesquisa Científica - DNA Digital" loading="lazy" width="500" height="400" style="width: 100%; height: 100%; max-height: 400px; object-fit: cover; border-radius: 20px; opacity: 0.9;" />
+          <div class="s-detail-icon-wrap tilt-wrapper">
+            <img src="cientifico.jpg" class="tilt-effect" alt="IA na Pesquisa Científica - DNA Digital" loading="lazy" width="500" height="400" />
           </div>
         </article>
 
@@ -409,8 +447,8 @@
               </div>
             </div>
           </div>
-          <div class="s-detail-icon-wrap tilt-wrapper" style="padding: 0; overflow: hidden; background: transparent; border: none; perspective: 1500px;">
-            <img src="promptimage.png" class="tilt-effect" alt="Engenharia de Prompt Estruturada" loading="lazy" width="500" height="400" style="width: 100%; height: 100%; max-height: 400px; object-fit: cover; border-radius: 20px; opacity: 0.9;" />
+          <div class="s-detail-icon-wrap tilt-wrapper">
+            <img src="promptimage.png" class="tilt-effect" alt="Engenharia de Prompt Estruturada" loading="lazy" width="500" height="400" />
           </div>
         </article>
 
@@ -438,8 +476,8 @@
               </div>
             </div>
           </div>
-          <div class="s-detail-icon-wrap tilt-wrapper" style="padding: 0; overflow: hidden; background: transparent; border: none; perspective: 1500px;">
-            <img src="infoprodutos.png" class="tilt-effect" alt="Criação de Infoprodutos de Elite" loading="lazy" width="500" height="400" style="width: 100%; height: 100%; max-height: 400px; object-fit: cover; border-radius: 20px; opacity: 0.9;" />
+          <div class="s-detail-icon-wrap tilt-wrapper">
+            <img src="infoprodutos.png" class="tilt-effect" alt="Criação de Infoprodutos de Elite" loading="lazy" width="500" height="400" />
           </div>
         </article>
       </div>
@@ -472,8 +510,8 @@
               </div>
             </div>
           </div>
-          <div class="s-detail-icon-wrap tilt-wrapper" style="padding: 0; overflow: visible; background: transparent; border: none; perspective: 1500px;">
-            <img src="educacao_mentorias.png" class="tilt-effect" alt="Educação e Mentorias em IA" loading="lazy" width="500" height="400" style="width: 100%; height: 100%; max-height: 400px; object-fit: contain; border-radius: 20px; opacity: 0.9;" />
+          <div class="s-detail-icon-wrap tilt-wrapper">
+            <img src="educacao_mentorias.png" class="tilt-effect" alt="Educação e Mentorias em IA" loading="lazy" width="500" height="400" />
           </div>
         </article>
 
@@ -501,8 +539,8 @@
               </div>
             </div>
           </div>
-          <div class="s-detail-icon-wrap tilt-wrapper" style="padding: 0; overflow: visible; background: transparent; border: none; perspective: 1500px;">
-            <img src="curadoria_treinamento.png" class="tilt-effect" alt="Fluxo de Treinamento e Curadoria de Ferramentas" loading="lazy" width="500" height="400" style="width: 100%; height: 100%; max-height: 400px; object-fit: contain; border-radius: 20px; opacity: 0.9;" />
+          <div class="s-detail-icon-wrap tilt-wrapper">
+            <img src="curadoria_treinamento.png" class="tilt-effect" alt="Fluxo de Treinamento e Curadoria de Ferramentas" loading="lazy" width="500" height="400" />
           </div>
         </article>
       </div>
