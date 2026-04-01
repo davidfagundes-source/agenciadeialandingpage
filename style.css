@@ -276,6 +276,21 @@ body {
   font-size: 1.1rem;
 }
 
+/* Logo imagem no navbar */
+.nav-logo-img {
+  height: 76px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  filter: drop-shadow(0 0 8px rgba(99, 102, 241, 0.25));
+}
+
+.nav-logo:hover .nav-logo-img {
+  opacity: 0.85;
+  transform: scale(1.04);
+}
+
 .logo-bracket {
   color: var(--accent-1);
   font-size: 1.2em;
@@ -424,7 +439,7 @@ body {
   gap: 40px;
   align-items: center;
   min-height: 70vh;
-  padding-top: 0;
+  padding-top: 140px;
 }
 
 .hero-visual {
@@ -454,19 +469,43 @@ body {
 }
 
 .hero-title {
-  color: var(--accent-3);
-  line-height: 1.1;
-  margin-bottom: 24px;
+  color: var(--text-primary);
+  line-height: 1;
+  margin-bottom: 32px;
+  font-family: 'Syne', sans-serif;
+  letter-spacing: -0.04em;
 }
 
 .hero-title .title-top,
-.hero-title .title-main {
-  font-size: clamp(2.8rem, 6vw, 4.2rem);
-  font-weight: 800;
+.hero-title .title-main,
+.hero-title .title-accent {
   display: block;
-  background: none;
-  -webkit-text-fill-color: initial;
-  color: inherit;
+  font-size: clamp(2.5rem, 6.5vw, 4.2rem);
+  font-weight: 800;
+}
+
+.hero-title .title-top {
+  opacity: 0.7;
+}
+
+.hero-title .title-main {
+  opacity: 0.9;
+}
+
+.hero-title .title-accent {
+  background: var(--gradient-prism);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: block;
+}
+
+.hero-subtitle {
+  font-size: clamp(1.15rem, 2.5vw, 1.4rem);
+  color: var(--text-secondary);
+  max-width: 550px;
+  line-height: 1.6;
+  margin-top: 8px;
 }
 
 .hero-actions {
@@ -1033,19 +1072,48 @@ body {
 
 .footer-brand {
   display: flex;
-  align-items: center;
-  gap: 4px;
-  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 8px;
   font-family: var(--font-display);
   font-weight: 700;
   font-size: 1rem;
 }
+.footer-logo-img {
+  height: 67px;
+  width: auto;
+  object-fit: contain;
+  opacity: 0.85;
+  transition: opacity 0.3s ease;
+}
+.footer-logo-img:hover { opacity: 1; }
 .footer-brand p {
-  width: 100%;
   font-size: 0.82rem;
   color: var(--text-muted);
   font-weight: 400;
-  margin-top: 4px;
+  margin-top: 0;
+}
+
+/* Logo centralizado no footer */
+.footer-center-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 0 24px;
+  border-top: 1px solid var(--border);
+  margin-bottom: 0;
+}
+.footer-center-logo-img {
+  height: 118px;
+  width: auto;
+  object-fit: contain;
+  opacity: 0.4;
+  transition: opacity 0.4s ease, filter 0.4s ease;
+  filter: grayscale(0.3);
+}
+.footer-center-logo:hover .footer-center-logo-img {
+  opacity: 0.75;
+  filter: grayscale(0) drop-shadow(0 0 16px rgba(99, 102, 241, 0.4));
 }
 
 .footer-links {
@@ -1062,7 +1130,6 @@ body {
 .footer-links a:hover { color: var(--text-primary); }
 
 .footer-bottom {
-  border-top: 1px solid var(--border);
   padding-top: 24px;
   display: flex;
   align-items: center;
