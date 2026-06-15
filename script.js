@@ -3,6 +3,8 @@
    ============================================== */
 
 // ── NAV SCROLL ──────────────────────────────────
+document.body.classList.add('js-enabled');
+
 const navbar = document.getElementById('navbar');
 window.addEventListener('scroll', () => {
   navbar.classList.toggle('scrolled', window.scrollY > 40);
