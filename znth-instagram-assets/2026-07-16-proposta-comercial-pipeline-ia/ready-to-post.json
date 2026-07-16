@@ -30,5 +30,140 @@
   "published": false,
   "publication_paused": true,
   "notes": "Foco apenas em carrossel/post de imagem; não gerar stories/Reels/publicação nesta rodada.",
-  "zip_path": "/opt/data/znth-instagram-squad/output/2026-07-16-proposta-comercial-pipeline-ia.zip"
+  "zip_path": "/opt/data/znth-instagram-squad/output/2026-07-16-proposta-comercial-pipeline-ia.zip",
+  "github_uploads": [
+    {
+      "path": "znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/images/slide-01.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/images/slide-01.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/images/slide-01.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/images/slide-02.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/images/slide-02.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/images/slide-02.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/images/slide-03.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/images/slide-03.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/images/slide-03.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/images/slide-04.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/images/slide-04.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/images/slide-04.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/images/slide-05.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/images/slide-05.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/images/slide-05.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/images/slide-06.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/images/slide-06.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/images/slide-06.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/images/slide-07.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/images/slide-07.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/images/slide-07.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/images/slide-08.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/images/slide-08.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/images/slide-08.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/assets/cinematic-01.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/assets/cinematic-01.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/assets/cinematic-01.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/assets/cinematic-02.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/assets/cinematic-02.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/assets/cinematic-02.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/assets/cinematic-03.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/assets/cinematic-03.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/assets/cinematic-03.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/assets/logo-horizontal.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/assets/logo-horizontal.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/assets/logo-horizontal.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/caption.txt",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/caption.txt",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/caption.txt"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/ready-to-post.json",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/ready-to-post.json",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/ready-to-post.json"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/review-report.md",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/review-report.md",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/review-report.md"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/research-briefing.md",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/research-briefing.md",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/research-briefing.md"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/instagram-feed-draft.md",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/instagram-feed-draft.md",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/instagram-feed-draft.md"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/rafael-reel-evaluation.md",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/rafael-reel-evaluation.md",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/rafael-reel-evaluation.md"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/simone-stories-note.md",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/simone-stories-note.md",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/simone-stories-note.md"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/visual-direction.md",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/visual-direction.md",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/visual-direction.md"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/agent-usage-audit.json",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/agent-usage-audit.json",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/agent-usage-audit.json"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/publication-status.md",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/publication-status.md",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia/publication-status.md"
+    }
+  ],
+  "github_raw_base": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia"
 }
