@@ -1,0 +1,112 @@
+{
+  "date": "2026-07-16",
+  "topic": "proposta comercial manual vs pipeline de IA",
+  "reason": "O post programado local para hoje era WhatsApp comercial, mas foi rejeitado por repetir o tema de ontem; pauta rotacionada para o próximo assunto do calendário semanal: propostas comerciais manuais vs pipeline de IA.",
+  "files_read": [
+    {
+      "type": "agent",
+      "file": "/opt/data/znth-instagram-squad/agents/natan-noticias.agent.md",
+      "exists": true,
+      "bytes": 4860
+    },
+    {
+      "type": "agent",
+      "file": "/opt/data/znth-instagram-squad/agents/caio-carrossel.agent.md",
+      "exists": true,
+      "bytes": 3564
+    },
+    {
+      "type": "agent",
+      "file": "/opt/data/znth-instagram-squad/agents/rafael-reel.agent.md",
+      "exists": true,
+      "bytes": 3185
+    },
+    {
+      "type": "agent",
+      "file": "/opt/data/znth-instagram-squad/agents/simone-stories.agent.md",
+      "exists": true,
+      "bytes": 3145
+    },
+    {
+      "type": "agent",
+      "file": "/opt/data/znth-instagram-squad/agents/diana-design.agent.md",
+      "exists": true,
+      "bytes": 5190
+    },
+    {
+      "type": "agent",
+      "file": "/opt/data/znth-instagram-squad/agents/vera-veredito.agent.md",
+      "exists": true,
+      "bytes": 3886
+    },
+    {
+      "type": "agent",
+      "file": "/opt/data/znth-instagram-squad/agents/paulo-publisher.agent.md",
+      "exists": true,
+      "bytes": 3399
+    },
+    {
+      "type": "rule_or_context",
+      "file": "/opt/data/znth-instagram-squad/memory/memories.md",
+      "exists": true,
+      "bytes": 3186
+    },
+    {
+      "type": "rule_or_context",
+      "file": "/opt/data/znth-instagram-squad/memory/runs.md",
+      "exists": true,
+      "bytes": 359
+    },
+    {
+      "type": "rule_or_context",
+      "file": "/opt/data/znth-instagram-squad/output/plano-semanal-2026-07-16-a-2026-07-22.md",
+      "exists": true,
+      "bytes": 2917
+    },
+    {
+      "type": "rule_or_context",
+      "file": "/opt/data/znth-instagram-squad/pipeline_data/quality-criteria.md",
+      "exists": true,
+      "bytes": 613
+    },
+    {
+      "type": "rule_or_context",
+      "file": "/opt/data/znth-instagram-squad/pipeline_data/anti-patterns.md",
+      "exists": true,
+      "bytes": 791
+    },
+    {
+      "type": "rule_or_context",
+      "file": "/opt/data/znth-instagram-squad/pipeline_data/tone-of-voice.md",
+      "exists": true,
+      "bytes": 941
+    },
+    {
+      "type": "rule_or_context",
+      "file": "/opt/data/znth-instagram-squad/pipeline_data/domain-framework.md",
+      "exists": true,
+      "bytes": 868
+    },
+    {
+      "type": "rule_or_context",
+      "file": "/opt/data/znth-instagram-squad/pipeline/pipeline.yaml",
+      "exists": true,
+      "bytes": 1315
+    },
+    {
+      "type": "rule_or_context",
+      "file": "/opt/data/znth-instagram-squad/root/squad.yaml",
+      "exists": true,
+      "bytes": 613
+    }
+  ],
+  "agents_applied": [
+    "Natan Notícias",
+    "Caio Carrossel",
+    "Rafael Reel (avaliação, sem Reel por instrução do David)",
+    "Simone Stories (sem stories por instrução do David)",
+    "Diana Design",
+    "Vera Veredito",
+    "Paulo Publisher (metadados, sem publicação)"
+  ]
+}
