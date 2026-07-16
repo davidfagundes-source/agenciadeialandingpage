@@ -4,7 +4,7 @@
   "topic": "Meta Business Agent e arquitetura de WhatsApp comercial",
   "format": "carousel",
   "local_folder": "/opt/data/znth-instagram-squad/output/2026-07-16-meta-business-agent-whatsapp",
-  "drive_folder": null,
+  "drive_folder": "1kiGHFc2lWyyFMKPfFzrqP2MzdkVJMilr",
   "caption_path": "/opt/data/znth-instagram-squad/output/2026-07-16-meta-business-agent-whatsapp/caption.txt",
   "image_paths": [
     "/opt/data/znth-instagram-squad/output/2026-07-16-meta-business-agent-whatsapp/images/slide-01.png",
@@ -52,5 +52,110 @@
   ],
   "published": false,
   "notes": "Paulo Publisher preparou payload; publicação real fica para job diurno.",
-  "zip_path": "/opt/data/znth-instagram-squad/output/2026-07-16-meta-business-agent-whatsapp.zip"
+  "zip_path": "/opt/data/znth-instagram-squad/output/2026-07-16-meta-business-agent-whatsapp.zip",
+  "drive_folder_url": "https://drive.google.com/drive/folders/1kiGHFc2lWyyFMKPfFzrqP2MzdkVJMilr",
+  "github_uploads": [
+    {
+      "path": "znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/images/reel-cover.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/images/reel-cover.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/images/reel-cover.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/images/slide-01.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/images/slide-01.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/images/slide-01.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/images/slide-02.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/images/slide-02.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/images/slide-02.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/images/slide-03.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/images/slide-03.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/images/slide-03.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/images/slide-04.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/images/slide-04.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/images/slide-04.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/images/slide-05.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/images/slide-05.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/images/slide-05.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/images/slide-06.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/images/slide-06.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/images/slide-06.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/images/slide-07.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/images/slide-07.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/images/slide-07.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/images/slide-08.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/images/slide-08.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/images/slide-08.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/stories/story-01.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/stories/story-01.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/stories/story-01.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/stories/story-02.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/stories/story-02.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/stories/story-02.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/stories/story-03.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/stories/story-03.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/stories/story-03.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/stories/story-04.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/stories/story-04.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/stories/story-04.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/stories/story-05.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/stories/story-05.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/stories/story-05.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/caption.txt",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/caption.txt",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/caption.txt"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/ready-to-post.json",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/ready-to-post.json",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/ready-to-post.json"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/review-report.md",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/review-report.md",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-meta-business-agent-whatsapp/review-report.md"
+    }
+  ]
 }
