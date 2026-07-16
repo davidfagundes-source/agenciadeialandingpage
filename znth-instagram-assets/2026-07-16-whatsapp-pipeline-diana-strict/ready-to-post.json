@@ -1,0 +1,42 @@
+{
+  "status": "ready",
+  "date": "2026-07-16",
+  "topic": "WhatsApp comercial como pipeline com agente de IA — Diana strict",
+  "format": "carousel",
+  "local_folder": "/opt/data/znth-instagram-squad/output/2026-07-16-whatsapp-pipeline-diana-strict",
+  "drive_folder": null,
+  "drive_folder_url": null,
+  "caption_path": "/opt/data/znth-instagram-squad/output/2026-07-16-whatsapp-pipeline-diana-strict/caption.txt",
+  "image_paths": [
+    "/opt/data/znth-instagram-squad/output/2026-07-16-whatsapp-pipeline-diana-strict/images/slide-01.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-16-whatsapp-pipeline-diana-strict/images/slide-02.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-16-whatsapp-pipeline-diana-strict/images/slide-03.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-16-whatsapp-pipeline-diana-strict/images/slide-04.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-16-whatsapp-pipeline-diana-strict/images/slide-05.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-16-whatsapp-pipeline-diana-strict/images/slide-06.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-16-whatsapp-pipeline-diana-strict/images/slide-07.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-16-whatsapp-pipeline-diana-strict/images/slide-08.png"
+  ],
+  "story_image_paths": [
+    "/opt/data/znth-instagram-squad/output/2026-07-16-whatsapp-pipeline-diana-strict/stories/story-01.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-16-whatsapp-pipeline-diana-strict/stories/story-02.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-16-whatsapp-pipeline-diana-strict/stories/story-03.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-16-whatsapp-pipeline-diana-strict/stories/story-04.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-16-whatsapp-pipeline-diana-strict/stories/story-05.png"
+  ],
+  "reel_cover_path": "/opt/data/znth-instagram-squad/output/2026-07-16-whatsapp-pipeline-diana-strict/images/reel-cover.png",
+  "github_prefix": "znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict",
+  "scheduled_posting_time": "2026-07-16T17:00:00-03:00",
+  "agents_used": [
+    "Natan Notícias",
+    "Caio Carrossel",
+    "Rafael Reel",
+    "Simone Stories",
+    "Diana Design",
+    "Vera Veredito",
+    "Paulo Publisher"
+  ],
+  "published": false,
+  "replaces_package": "/opt/data/znth-instagram-squad/output/2026-07-16-whatsapp-pipeline-diana-strict",
+  "zip_path": "/opt/data/znth-instagram-squad/output/2026-07-16-whatsapp-pipeline-diana-strict.zip"
+}
