@@ -38,5 +38,176 @@
   ],
   "published": false,
   "replaces_package": "/opt/data/znth-instagram-squad/output/2026-07-16-whatsapp-pipeline-diana-strict",
-  "zip_path": "/opt/data/znth-instagram-squad/output/2026-07-16-whatsapp-pipeline-diana-strict.zip"
+  "zip_path": "/opt/data/znth-instagram-squad/output/2026-07-16-whatsapp-pipeline-diana-strict.zip",
+  "github_uploads": [
+    {
+      "path": "znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/images/reel-cover.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/images/reel-cover.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/images/reel-cover.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/images/slide-01.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/images/slide-01.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/images/slide-01.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/images/slide-02.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/images/slide-02.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/images/slide-02.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/images/slide-03.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/images/slide-03.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/images/slide-03.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/images/slide-04.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/images/slide-04.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/images/slide-04.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/images/slide-05.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/images/slide-05.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/images/slide-05.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/images/slide-06.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/images/slide-06.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/images/slide-06.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/images/slide-07.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/images/slide-07.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/images/slide-07.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/images/slide-08.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/images/slide-08.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/images/slide-08.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/stories/story-01.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/stories/story-01.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/stories/story-01.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/stories/story-02.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/stories/story-02.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/stories/story-02.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/stories/story-03.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/stories/story-03.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/stories/story-03.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/stories/story-04.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/stories/story-04.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/stories/story-04.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/stories/story-05.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/stories/story-05.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/stories/story-05.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/assets/cinematic-01.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/assets/cinematic-01.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/assets/cinematic-01.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/assets/cinematic-02.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/assets/cinematic-02.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/assets/cinematic-02.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/assets/cinematic-03.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/assets/cinematic-03.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/assets/cinematic-03.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/assets/logo-horizontal.png",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/assets/logo-horizontal.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/assets/logo-horizontal.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/caption.txt",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/caption.txt",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/caption.txt"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/ready-to-post.json",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/ready-to-post.json",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/ready-to-post.json"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/review-report.md",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/review-report.md",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/review-report.md"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/research-briefing.md",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/research-briefing.md",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/research-briefing.md"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/instagram-feed-draft.md",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/instagram-feed-draft.md",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/instagram-feed-draft.md"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/reels-script.md",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/reels-script.md",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/reels-script.md"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/stories-sequence.md",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/stories-sequence.md",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/stories-sequence.md"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/visual-direction.md",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/visual-direction.md",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/visual-direction.md"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/agent-usage-audit.json",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/agent-usage-audit.json",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/agent-usage-audit.json"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/publication-status.md",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/publication-status.md",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict/publication-status.md"
+    }
+  ],
+  "github_raw_base": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-16-whatsapp-pipeline-diana-strict"
 }
