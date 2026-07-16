@@ -1,0 +1,34 @@
+{
+  "status": "ready",
+  "date": "2026-07-16",
+  "topic": "Proposta comercial manual vs pipeline de IA",
+  "format": "carousel",
+  "local_folder": "/opt/data/znth-instagram-squad/output/2026-07-16-proposta-comercial-pipeline-ia",
+  "caption_path": "/opt/data/znth-instagram-squad/output/2026-07-16-proposta-comercial-pipeline-ia/caption.txt",
+  "image_paths": [
+    "/opt/data/znth-instagram-squad/output/2026-07-16-proposta-comercial-pipeline-ia/images/slide-01.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-16-proposta-comercial-pipeline-ia/images/slide-02.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-16-proposta-comercial-pipeline-ia/images/slide-03.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-16-proposta-comercial-pipeline-ia/images/slide-04.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-16-proposta-comercial-pipeline-ia/images/slide-05.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-16-proposta-comercial-pipeline-ia/images/slide-06.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-16-proposta-comercial-pipeline-ia/images/slide-07.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-16-proposta-comercial-pipeline-ia/images/slide-08.png"
+  ],
+  "story_image_paths": [],
+  "reel_cover_path": null,
+  "github_prefix": "znth-instagram-assets/2026-07-16-proposta-comercial-pipeline-ia",
+  "agents_used": [
+    "Natan Notícias",
+    "Caio Carrossel",
+    "Rafael Reel (avaliação)",
+    "Simone Stories (sem stories por instrução)",
+    "Diana Design",
+    "Vera Veredito",
+    "Paulo Publisher"
+  ],
+  "published": false,
+  "publication_paused": true,
+  "notes": "Foco apenas em carrossel/post de imagem; não gerar stories/Reels/publicação nesta rodada.",
+  "zip_path": "/opt/data/znth-instagram-squad/output/2026-07-16-proposta-comercial-pipeline-ia.zip"
+}
