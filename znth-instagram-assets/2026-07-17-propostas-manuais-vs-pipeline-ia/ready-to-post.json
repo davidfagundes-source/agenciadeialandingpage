@@ -252,7 +252,22 @@
       "status": "uploaded",
       "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-17-propostas-manuais-vs-pipeline-ia/instagram-feed-draft.md",
       "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-17-propostas-manuais-vs-pipeline-ia/instagram-feed-draft.md"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-17-propostas-manuais-vs-pipeline-ia/ready-to-post.json",
+      "status": "uploaded",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-17-propostas-manuais-vs-pipeline-ia/ready-to-post.json",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-17-propostas-manuais-vs-pipeline-ia/ready-to-post.json"
     }
   ],
-  "github_public_base": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-17-propostas-manuais-vs-pipeline-ia"
+  "github_public_base": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-17-propostas-manuais-vs-pipeline-ia",
+  "drive_folder": "1WKzO0JBz0OvlvJ9hbdWtNvdu3xYRuIdW",
+  "drive_folder_url": "https://drive.google.com/drive/folders/1WKzO0JBz0OvlvJ9hbdWtNvdu3xYRuIdW",
+  "drive_files_count": 35,
+  "drive_zip_file": {
+    "id": "1H-nBAWvDTf59Gw4KLRcirC7cQLISgl0r",
+    "name": "2026-07-17-propostas-manuais-vs-pipeline-ia.zip",
+    "mimeType": "application/zip",
+    "webViewLink": "https://drive.google.com/file/d/1H-nBAWvDTf59Gw4KLRcirC7cQLISgl0r/view?usp=drivesdk"
+  }
 }
