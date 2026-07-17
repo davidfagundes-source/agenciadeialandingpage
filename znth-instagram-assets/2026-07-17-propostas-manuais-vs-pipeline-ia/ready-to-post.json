@@ -1,0 +1,135 @@
+{
+  "status": "ready",
+  "date": "2026-07-17",
+  "topic": "Propostas comerciais manuais vs pipeline de IA",
+  "format": "reel",
+  "local_folder": "/opt/data/znth-instagram-squad/output/2026-07-17-propostas-manuais-vs-pipeline-ia",
+  "drive_parent_folder": "1sdT5neTLrWM947xO7gIUGB9X9nW079HS",
+  "caption_path": "/opt/data/znth-instagram-squad/output/2026-07-17-propostas-manuais-vs-pipeline-ia/caption.txt",
+  "image_paths": [
+    "/opt/data/znth-instagram-squad/output/2026-07-17-propostas-manuais-vs-pipeline-ia/images/reel-cover.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-17-propostas-manuais-vs-pipeline-ia/images/reel-frame-01.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-17-propostas-manuais-vs-pipeline-ia/images/reel-frame-02.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-17-propostas-manuais-vs-pipeline-ia/images/reel-frame-03.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-17-propostas-manuais-vs-pipeline-ia/images/reel-frame-04.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-17-propostas-manuais-vs-pipeline-ia/images/reel-frame-05.png"
+  ],
+  "video_paths": [
+    "/opt/data/znth-instagram-squad/output/2026-07-17-propostas-manuais-vs-pipeline-ia/video/reel-reference.mp4"
+  ],
+  "story_paths": [
+    "/opt/data/znth-instagram-squad/output/2026-07-17-propostas-manuais-vs-pipeline-ia/stories/story-01.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-17-propostas-manuais-vs-pipeline-ia/stories/story-02.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-17-propostas-manuais-vs-pipeline-ia/stories/story-03.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-17-propostas-manuais-vs-pipeline-ia/stories/story-04.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-17-propostas-manuais-vs-pipeline-ia/stories/story-05.png"
+  ],
+  "github_paths": [
+    "znth-instagram-assets/2026-07-17-propostas-manuais-vs-pipeline-ia/images/reel-cover.png",
+    "znth-instagram-assets/2026-07-17-propostas-manuais-vs-pipeline-ia/video/reel-reference.mp4"
+  ],
+  "suggested_posting_window": "2026-07-17 11:30-13:00 BRT ou 18:00-20:00 BRT",
+  "agents_used": [
+    "Natan Notícias",
+    "Caio Carrossel",
+    "Rafael Reel",
+    "Simone Stories",
+    "Diana Design",
+    "Vera Veredito",
+    "Paulo Publisher"
+  ],
+  "published": false,
+  "visual_quality_check": {
+    "method": "playwright_render_plus_png_dimension_validation; vision_analyze tool unavailable in this runtime",
+    "files_checked": [
+      {
+        "path": "/opt/data/znth-instagram-squad/output/2026-07-17-propostas-manuais-vs-pipeline-ia/images/reel-cover.png",
+        "size": 1111811,
+        "dimensions": [
+          1080,
+          1920
+        ]
+      },
+      {
+        "path": "/opt/data/znth-instagram-squad/output/2026-07-17-propostas-manuais-vs-pipeline-ia/images/reel-frame-01.png",
+        "size": 1027609,
+        "dimensions": [
+          1080,
+          1920
+        ]
+      },
+      {
+        "path": "/opt/data/znth-instagram-squad/output/2026-07-17-propostas-manuais-vs-pipeline-ia/images/reel-frame-02.png",
+        "size": 972592,
+        "dimensions": [
+          1080,
+          1920
+        ]
+      },
+      {
+        "path": "/opt/data/znth-instagram-squad/output/2026-07-17-propostas-manuais-vs-pipeline-ia/images/reel-frame-03.png",
+        "size": 972618,
+        "dimensions": [
+          1080,
+          1920
+        ]
+      },
+      {
+        "path": "/opt/data/znth-instagram-squad/output/2026-07-17-propostas-manuais-vs-pipeline-ia/images/reel-frame-04.png",
+        "size": 953921,
+        "dimensions": [
+          1080,
+          1920
+        ]
+      },
+      {
+        "path": "/opt/data/znth-instagram-squad/output/2026-07-17-propostas-manuais-vs-pipeline-ia/images/reel-frame-05.png",
+        "size": 998251,
+        "dimensions": [
+          1080,
+          1920
+        ]
+      },
+      {
+        "path": "/opt/data/znth-instagram-squad/output/2026-07-17-propostas-manuais-vs-pipeline-ia/stories/story-01.png",
+        "size": 971805,
+        "dimensions": [
+          1080,
+          1920
+        ]
+      },
+      {
+        "path": "/opt/data/znth-instagram-squad/output/2026-07-17-propostas-manuais-vs-pipeline-ia/stories/story-02.png",
+        "size": 989292,
+        "dimensions": [
+          1080,
+          1920
+        ]
+      },
+      {
+        "path": "/opt/data/znth-instagram-squad/output/2026-07-17-propostas-manuais-vs-pipeline-ia/stories/story-03.png",
+        "size": 978419,
+        "dimensions": [
+          1080,
+          1920
+        ]
+      },
+      {
+        "path": "/opt/data/znth-instagram-squad/output/2026-07-17-propostas-manuais-vs-pipeline-ia/stories/story-04.png",
+        "size": 991970,
+        "dimensions": [
+          1080,
+          1920
+        ]
+      },
+      {
+        "path": "/opt/data/znth-instagram-squad/output/2026-07-17-propostas-manuais-vs-pipeline-ia/stories/story-05.png",
+        "size": 986332,
+        "dimensions": [
+          1080,
+          1920
+        ]
+      }
+    ]
+  }
+}
