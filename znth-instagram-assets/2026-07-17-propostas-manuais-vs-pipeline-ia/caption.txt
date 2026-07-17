@@ -1,0 +1,9 @@
+Proposta comercial feita manualmente cobra um custo invisível: o lead espera enquanto a equipe remonta briefing, escopo, preço, margem, prazos e aprovações.
+
+Um pipeline de IA muda a função do vendedor. Em vez de começar no documento em branco, ele revisa uma proposta montada com contexto do CRM, regras comerciais e histórico da conversa.
+
+A ZNTH.AI desenha esse tipo de workflow como Automação Cognitiva: agentes coletam dados, estruturam o raciocínio, sinalizam riscos e deixam a decisão sensível para o humano.
+
+Comente PROPOSTA que eu te envio um mapa inicial para transformar briefing em proposta revisável.
+
+#ZNTHAI #AutomacaoCognitiva #AgentesDeIA #IAParaEmpresas #VendasB2B #PropostaComercial #PipelineDeVendas #CRM #RevOps #InteligenciaArtificial
