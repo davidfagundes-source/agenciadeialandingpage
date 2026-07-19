@@ -1,0 +1,438 @@
+{
+  "status": "ready",
+  "date": "2026-07-19",
+  "topic": "Diferença entre automação simples e automação cognitiva",
+  "format": "reel",
+  "local_folder": "/opt/data/znth-instagram-squad/output/2026-07-19-automacao-simples-vs-cognitiva",
+  "drive_folder": "1raVxFJTtEzQKYqrNbelxjlXEX3wFTExa",
+  "drive_folder_url": "https://drive.google.com/drive/folders/1raVxFJTtEzQKYqrNbelxjlXEX3wFTExa",
+  "caption_path": "/opt/data/znth-instagram-squad/output/2026-07-19-automacao-simples-vs-cognitiva/caption.txt",
+  "image_paths": [
+    "/opt/data/znth-instagram-squad/output/2026-07-19-automacao-simples-vs-cognitiva/images/reel-cover.png"
+  ],
+  "reel_cover_path": "/opt/data/znth-instagram-squad/output/2026-07-19-automacao-simples-vs-cognitiva/images/reel-cover.png",
+  "reel_video_path": "/opt/data/znth-instagram-squad/output/2026-07-19-automacao-simples-vs-cognitiva/video/automacao-cognitiva-reel.mp4",
+  "story_image_paths": [
+    "/opt/data/znth-instagram-squad/output/2026-07-19-automacao-simples-vs-cognitiva/stories/story-01.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-19-automacao-simples-vs-cognitiva/stories/story-02.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-19-automacao-simples-vs-cognitiva/stories/story-03.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-19-automacao-simples-vs-cognitiva/stories/story-04.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-19-automacao-simples-vs-cognitiva/stories/story-05.png"
+  ],
+  "github_repo": "davidfagundes-source/agenciadeialandingpage",
+  "github_paths": [
+    "znth-instagram-assets/2026-07-19-automacao-simples-vs-cognitiva/caption.txt",
+    "znth-instagram-assets/2026-07-19-automacao-simples-vs-cognitiva/images/reel-cover.png",
+    "znth-instagram-assets/2026-07-19-automacao-simples-vs-cognitiva/video/automacao-cognitiva-reel.mp4"
+  ],
+  "suggested_posting_window": "Domingo, 10:30–12:00 BRT ou 18:00–20:00 BRT",
+  "agents_used": [
+    "Natan Notícias",
+    "Caio Carrossel",
+    "Rafael Reel",
+    "Simone Stories",
+    "Diana Design",
+    "Vera Veredito",
+    "Paulo Publisher"
+  ],
+  "published": true,
+  "verification": {
+    "pngs": [
+      {
+        "path": "/opt/data/znth-instagram-squad/output/2026-07-19-automacao-simples-vs-cognitiva/images/reel-cover.png",
+        "width": 1080,
+        "height": 1920,
+        "bytes": 1354742,
+        "ok": true
+      },
+      {
+        "path": "/opt/data/znth-instagram-squad/output/2026-07-19-automacao-simples-vs-cognitiva/stories/story-01.png",
+        "width": 1080,
+        "height": 1920,
+        "bytes": 1280982,
+        "ok": true
+      },
+      {
+        "path": "/opt/data/znth-instagram-squad/output/2026-07-19-automacao-simples-vs-cognitiva/stories/story-02.png",
+        "width": 1080,
+        "height": 1920,
+        "bytes": 1281897,
+        "ok": true
+      },
+      {
+        "path": "/opt/data/znth-instagram-squad/output/2026-07-19-automacao-simples-vs-cognitiva/stories/story-03.png",
+        "width": 1080,
+        "height": 1920,
+        "bytes": 1284281,
+        "ok": true
+      },
+      {
+        "path": "/opt/data/znth-instagram-squad/output/2026-07-19-automacao-simples-vs-cognitiva/stories/story-04.png",
+        "width": 1080,
+        "height": 1920,
+        "bytes": 1283142,
+        "ok": true
+      },
+      {
+        "path": "/opt/data/znth-instagram-squad/output/2026-07-19-automacao-simples-vs-cognitiva/stories/story-05.png",
+        "width": 1080,
+        "height": 1920,
+        "bytes": 1277601,
+        "ok": true
+      },
+      {
+        "path": "/opt/data/znth-instagram-squad/output/2026-07-19-automacao-simples-vs-cognitiva/video/frames/frame-01.png",
+        "width": 1080,
+        "height": 1920,
+        "bytes": 1300201,
+        "ok": true
+      },
+      {
+        "path": "/opt/data/znth-instagram-squad/output/2026-07-19-automacao-simples-vs-cognitiva/video/frames/frame-02.png",
+        "width": 1080,
+        "height": 1920,
+        "bytes": 1303330,
+        "ok": true
+      },
+      {
+        "path": "/opt/data/znth-instagram-squad/output/2026-07-19-automacao-simples-vs-cognitiva/video/frames/frame-03.png",
+        "width": 1080,
+        "height": 1920,
+        "bytes": 1298225,
+        "ok": true
+      },
+      {
+        "path": "/opt/data/znth-instagram-squad/output/2026-07-19-automacao-simples-vs-cognitiva/video/frames/frame-04.png",
+        "width": 1080,
+        "height": 1920,
+        "bytes": 1302982,
+        "ok": true
+      },
+      {
+        "path": "/opt/data/znth-instagram-squad/output/2026-07-19-automacao-simples-vs-cognitiva/video/frames/frame-05.png",
+        "width": 1080,
+        "height": 1920,
+        "bytes": 1302368,
+        "ok": true
+      }
+    ],
+    "video_probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1080,
+          "height": 1920,
+          "duration": "10.000000"
+        }
+      ]
+    }
+  },
+  "created_at_brt": "2026-07-19T03:00:17-03:00",
+  "zip_path": "/opt/data/znth-instagram-squad/output/2026-07-19-automacao-simples-vs-cognitiva.zip",
+  "github_uploads": [
+    {
+      "path": "znth-instagram-assets/2026-07-19-automacao-simples-vs-cognitiva/caption.txt",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-19-automacao-simples-vs-cognitiva/caption.txt",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-19-automacao-simples-vs-cognitiva/caption.txt"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-19-automacao-simples-vs-cognitiva/images/reel-cover.png",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-19-automacao-simples-vs-cognitiva/images/reel-cover.png",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-19-automacao-simples-vs-cognitiva/images/reel-cover.png"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-19-automacao-simples-vs-cognitiva/video/automacao-cognitiva-reel.mp4",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-19-automacao-simples-vs-cognitiva/video/automacao-cognitiva-reel.mp4",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-19-automacao-simples-vs-cognitiva/video/automacao-cognitiva-reel.mp4"
+    },
+    {
+      "path": "znth-instagram-assets/2026-07-19-automacao-simples-vs-cognitiva/reels-script.md",
+      "download_url": "https://raw.githubusercontent.com/davidfagundes-source/agenciadeialandingpage/main/znth-instagram-assets/2026-07-19-automacao-simples-vs-cognitiva/reels-script.md",
+      "html_url": "https://github.com/davidfagundes-source/agenciadeialandingpage/blob/main/znth-instagram-assets/2026-07-19-automacao-simples-vs-cognitiva/reels-script.md"
+    }
+  ],
+  "drive_files_count": 38,
+  "drive_zip_file": {
+    "id": "16_HA6wxFdegbjqXuMOLdrRK4THukfPJW",
+    "name": "2026-07-19-automacao-simples-vs-cognitiva.zip",
+    "mimeType": "application/zip",
+    "webViewLink": "https://drive.google.com/file/d/16_HA6wxFdegbjqXuMOLdrRK4THukfPJW/view?usp=drivesdk",
+    "size": "17730815"
+  },
+  "drive_uploaded_files": [
+    {
+      "id": "1W7MbHQ3jGG17bo4zefyO1QZGfE1pL1T3",
+      "name": "bg-hook-fallback.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1W7MbHQ3jGG17bo4zefyO1QZGfE1pL1T3/view?usp=drivesdk",
+      "size": "2297651"
+    },
+    {
+      "id": "1alT_n-szaHGOJ2Rr6YfD_ezZ7jihBYF1",
+      "name": "logo-horizontal.png",
+      "mimeType": "image/png",
+      "webViewLink": "https://drive.google.com/file/d/1alT_n-szaHGOJ2Rr6YfD_ezZ7jihBYF1/view?usp=drivesdk",
+      "size": "134980"
+    },
+    {
+      "id": "1z6qUouUw2NTcz_EQtlnkKwjpKSAN0txY",
+      "name": "logo-stacked.png",
+      "mimeType": "image/png",
+      "webViewLink": "https://drive.google.com/file/d/1z6qUouUw2NTcz_EQtlnkKwjpKSAN0txY/view?usp=drivesdk",
+      "size": "386739"
+    },
+    {
+      "id": "1swaz-Pbs1eijOls174qXCTHavZrMDZgz",
+      "name": "build_package.py",
+      "mimeType": "text/x-python",
+      "webViewLink": "https://drive.google.com/file/d/1swaz-Pbs1eijOls174qXCTHavZrMDZgz/view?usp=drivesdk",
+      "size": "16475"
+    },
+    {
+      "id": "1x52hKb0pDmYAGWgEQDnrRyTu19xanRcO",
+      "name": "caption.txt",
+      "mimeType": "text/plain",
+      "webViewLink": "https://drive.google.com/file/d/1x52hKb0pDmYAGWgEQDnrRyTu19xanRcO/view?usp=drivesdk",
+      "size": "873"
+    },
+    {
+      "id": "14CUimQFs0KIE3OP4NKYkM_8QmeUsSvF8",
+      "name": "contact-sheet.png",
+      "mimeType": "image/png",
+      "webViewLink": "https://drive.google.com/file/d/14CUimQFs0KIE3OP4NKYkM_8QmeUsSvF8/view?usp=drivesdk",
+      "size": "298259"
+    },
+    {
+      "id": "17PgVAPfeIEDN36sEf1KKXVNvcoQsvzDu",
+      "name": "finalize_upload.py",
+      "mimeType": "text/x-python",
+      "webViewLink": "https://drive.google.com/file/d/17PgVAPfeIEDN36sEf1KKXVNvcoQsvzDu/view?usp=drivesdk",
+      "size": "8134"
+    },
+    {
+      "id": "1WeHaXxypGro20Ja34MZIpu5p_VI8Wyjb",
+      "name": "reel-cover.html",
+      "mimeType": "text/html",
+      "webViewLink": "https://drive.google.com/file/d/1WeHaXxypGro20Ja34MZIpu5p_VI8Wyjb/view?usp=drivesdk",
+      "size": "3462"
+    },
+    {
+      "id": "1q-lN33GXtzeLjQdzxhrpoUagoaVgek-o",
+      "name": "reel-frame-01.html",
+      "mimeType": "text/html",
+      "webViewLink": "https://drive.google.com/file/d/1q-lN33GXtzeLjQdzxhrpoUagoaVgek-o/view?usp=drivesdk",
+      "size": "3126"
+    },
+    {
+      "id": "1twZyNrvdw01yQIaxc1wVbXaJ8h3_2Gw5",
+      "name": "reel-frame-02.html",
+      "mimeType": "text/html",
+      "webViewLink": "https://drive.google.com/file/d/1twZyNrvdw01yQIaxc1wVbXaJ8h3_2Gw5/view?usp=drivesdk",
+      "size": "3132"
+    },
+    {
+      "id": "1Fbg2CQmzsPKRwuoYXCYtroRErrbEqLRr",
+      "name": "reel-frame-03.html",
+      "mimeType": "text/html",
+      "webViewLink": "https://drive.google.com/file/d/1Fbg2CQmzsPKRwuoYXCYtroRErrbEqLRr/view?usp=drivesdk",
+      "size": "3128"
+    },
+    {
+      "id": "1NiRe4w19eMQyP7sutPrlvFjkmp0zO6gu",
+      "name": "reel-frame-04.html",
+      "mimeType": "text/html",
+      "webViewLink": "https://drive.google.com/file/d/1NiRe4w19eMQyP7sutPrlvFjkmp0zO6gu/view?usp=drivesdk",
+      "size": "3122"
+    },
+    {
+      "id": "1DJH7M0w5kvV5DUZtbeBbVIxo95t7eS9Q",
+      "name": "reel-frame-05.html",
+      "mimeType": "text/html",
+      "webViewLink": "https://drive.google.com/file/d/1DJH7M0w5kvV5DUZtbeBbVIxo95t7eS9Q/view?usp=drivesdk",
+      "size": "3104"
+    },
+    {
+      "id": "1A62ZTFneAaGoLVNvtQcnh051f_r9ma2Q",
+      "name": "story-01.html",
+      "mimeType": "text/html",
+      "webViewLink": "https://drive.google.com/file/d/1A62ZTFneAaGoLVNvtQcnh051f_r9ma2Q/view?usp=drivesdk",
+      "size": "3156"
+    },
+    {
+      "id": "1ui8Gq3zxnLL57BIjzx46u2JCdtZZG7rR",
+      "name": "story-02.html",
+      "mimeType": "text/html",
+      "webViewLink": "https://drive.google.com/file/d/1ui8Gq3zxnLL57BIjzx46u2JCdtZZG7rR/view?usp=drivesdk",
+      "size": "3152"
+    },
+    {
+      "id": "1zgkzHQhHqgcw1M-Y9L_W1y6j5jAH9e-L",
+      "name": "story-03.html",
+      "mimeType": "text/html",
+      "webViewLink": "https://drive.google.com/file/d/1zgkzHQhHqgcw1M-Y9L_W1y6j5jAH9e-L/view?usp=drivesdk",
+      "size": "3149"
+    },
+    {
+      "id": "1dkoRPUzQCTpo8AE8fMifRa3jgnEmCVKv",
+      "name": "story-04.html",
+      "mimeType": "text/html",
+      "webViewLink": "https://drive.google.com/file/d/1dkoRPUzQCTpo8AE8fMifRa3jgnEmCVKv/view?usp=drivesdk",
+      "size": "3157"
+    },
+    {
+      "id": "1PkvkQXBvFv136ZAaMYi_KaKRzWO6Thex",
+      "name": "story-05.html",
+      "mimeType": "text/html",
+      "webViewLink": "https://drive.google.com/file/d/1PkvkQXBvFv136ZAaMYi_KaKRzWO6Thex/view?usp=drivesdk",
+      "size": "3160"
+    },
+    {
+      "id": "1aPjGsdkTRE0w44qlxi3d2CTSGKD9qM1b",
+      "name": "reel-cover.png",
+      "mimeType": "image/png",
+      "webViewLink": "https://drive.google.com/file/d/1aPjGsdkTRE0w44qlxi3d2CTSGKD9qM1b/view?usp=drivesdk",
+      "size": "1354742"
+    },
+    {
+      "id": "10ceYfvvotompQRzCmRnqBgDm-mwxvbE-",
+      "name": "instagram-feed-draft.md",
+      "mimeType": "text/markdown",
+      "webViewLink": "https://drive.google.com/file/d/10ceYfvvotompQRzCmRnqBgDm-mwxvbE-/view?usp=drivesdk",
+      "size": "910"
+    },
+    {
+      "id": "1fLLbZDTUN94qaJNBaG1pPNB8Rzbl4WM9",
+      "name": "ready-to-post.json",
+      "mimeType": "application/json",
+      "webViewLink": "https://drive.google.com/file/d/1fLLbZDTUN94qaJNBaG1pPNB8Rzbl4WM9/view?usp=drivesdk",
+      "size": "6973"
+    },
+    {
+      "id": "1U15XCUerSCIqOAbtKlAlGEcSNIwsPSrR",
+      "name": "reels-script.md",
+      "mimeType": "text/markdown",
+      "webViewLink": "https://drive.google.com/file/d/1U15XCUerSCIqOAbtKlAlGEcSNIwsPSrR/view?usp=drivesdk",
+      "size": "1554"
+    },
+    {
+      "id": "1w2XTrrIpiPKKCHb_NZpez7ZYdmmiIip0",
+      "name": "research-briefing.md",
+      "mimeType": "text/markdown",
+      "webViewLink": "https://drive.google.com/file/d/1w2XTrrIpiPKKCHb_NZpez7ZYdmmiIip0/view?usp=drivesdk",
+      "size": "2663"
+    },
+    {
+      "id": "1yfuFiRL0jA-I-bPqkz4owxW5E9_aQe7L",
+      "name": "review-report.md",
+      "mimeType": "text/markdown",
+      "webViewLink": "https://drive.google.com/file/d/1yfuFiRL0jA-I-bPqkz4owxW5E9_aQe7L/view?usp=drivesdk",
+      "size": "1305"
+    },
+    {
+      "id": "17l_ro2Y43psXIvqmNn895fCMXjK5dK9Y",
+      "name": "story-01.png",
+      "mimeType": "image/png",
+      "webViewLink": "https://drive.google.com/file/d/17l_ro2Y43psXIvqmNn895fCMXjK5dK9Y/view?usp=drivesdk",
+      "size": "1280982"
+    },
+    {
+      "id": "1YxVoaoT9Dt3p-bSHRZTvdoj6yewQ4x-2",
+      "name": "story-02.png",
+      "mimeType": "image/png",
+      "webViewLink": "https://drive.google.com/file/d/1YxVoaoT9Dt3p-bSHRZTvdoj6yewQ4x-2/view?usp=drivesdk",
+      "size": "1281897"
+    },
+    {
+      "id": "1YgZtBAPiXtgg2tkN_pHZpJvQmXq6wur8",
+      "name": "story-03.png",
+      "mimeType": "image/png",
+      "webViewLink": "https://drive.google.com/file/d/1YgZtBAPiXtgg2tkN_pHZpJvQmXq6wur8/view?usp=drivesdk",
+      "size": "1284281"
+    },
+    {
+      "id": "1ZFaUTp6A5ZbQUAeh4gaRVljugpq3RgPm",
+      "name": "story-04.png",
+      "mimeType": "image/png",
+      "webViewLink": "https://drive.google.com/file/d/1ZFaUTp6A5ZbQUAeh4gaRVljugpq3RgPm/view?usp=drivesdk",
+      "size": "1283142"
+    },
+    {
+      "id": "1ida5XGlx23lJZT98bqmx4-LglEW3cM5S",
+      "name": "story-05.png",
+      "mimeType": "image/png",
+      "webViewLink": "https://drive.google.com/file/d/1ida5XGlx23lJZT98bqmx4-LglEW3cM5S/view?usp=drivesdk",
+      "size": "1277601"
+    },
+    {
+      "id": "1X8v7YoPyQUDjDPW3LWmvbZ1a_k9S_u3g",
+      "name": "stories-sequence.md",
+      "mimeType": "text/markdown",
+      "webViewLink": "https://drive.google.com/file/d/1X8v7YoPyQUDjDPW3LWmvbZ1a_k9S_u3g/view?usp=drivesdk",
+      "size": "1082"
+    },
+    {
+      "id": "135-YMWEHmS4-2iHMvKf8GqF4PeYqmDuu",
+      "name": "automacao-cognitiva-reel.mp4",
+      "mimeType": "video/mp4",
+      "webViewLink": "https://drive.google.com/file/d/135-YMWEHmS4-2iHMvKf8GqF4PeYqmDuu/view?usp=drivesdk",
+      "size": "380910"
+    },
+    {
+      "id": "1d3-mh0fwHi2qf7WY3x6Lpq8l5gNUIcIu",
+      "name": "frame-01.png",
+      "mimeType": "image/png",
+      "webViewLink": "https://drive.google.com/file/d/1d3-mh0fwHi2qf7WY3x6Lpq8l5gNUIcIu/view?usp=drivesdk",
+      "size": "1300201"
+    },
+    {
+      "id": "1Gbydxv3JP1blOTiWOfs9MjfjZQJip9q8",
+      "name": "frame-02.png",
+      "mimeType": "image/png",
+      "webViewLink": "https://drive.google.com/file/d/1Gbydxv3JP1blOTiWOfs9MjfjZQJip9q8/view?usp=drivesdk",
+      "size": "1303330"
+    },
+    {
+      "id": "1WqEXElkfKtXH16QjSZbl3dVKNv4gCEo6",
+      "name": "frame-03.png",
+      "mimeType": "image/png",
+      "webViewLink": "https://drive.google.com/file/d/1WqEXElkfKtXH16QjSZbl3dVKNv4gCEo6/view?usp=drivesdk",
+      "size": "1298225"
+    },
+    {
+      "id": "1zB6paK2y1c-1_v7B9bXBx1NAPp9N-sCu",
+      "name": "frame-04.png",
+      "mimeType": "image/png",
+      "webViewLink": "https://drive.google.com/file/d/1zB6paK2y1c-1_v7B9bXBx1NAPp9N-sCu/view?usp=drivesdk",
+      "size": "1302982"
+    },
+    {
+      "id": "1khJkdsC0MDyVmm3LyFz8d7TEzoOgdFq1",
+      "name": "frame-05.png",
+      "mimeType": "image/png",
+      "webViewLink": "https://drive.google.com/file/d/1khJkdsC0MDyVmm3LyFz8d7TEzoOgdFq1/view?usp=drivesdk",
+      "size": "1302368"
+    },
+    {
+      "id": "1Kg7XIwQLDiVxsrF8TC8FJvvJHEzNdJcg",
+      "name": "visual-direction.md",
+      "mimeType": "text/markdown",
+      "webViewLink": "https://drive.google.com/file/d/1Kg7XIwQLDiVxsrF8TC8FJvvJHEzNdJcg/view?usp=drivesdk",
+      "size": "644"
+    }
+  ],
+  "drive_ready_to_post_file": {
+    "id": "1lVP2a52ugR5GhH0M3utud62PcE1QiGuV",
+    "name": "ready-to-post.json",
+    "mimeType": "application/json",
+    "webViewLink": "https://drive.google.com/file/d/1lVP2a52ugR5GhH0M3utud62PcE1QiGuV/view?usp=drivesdk",
+    "size": "16974"
+  },
+  "publication_status": "published",
+  "published_at": "2026-07-19T19:12:53-03:00",
+  "instagram_media_id": "17979250410060537",
+  "instagram_permalink": "https://www.instagram.com/reel/Da_aPRwAFhx/",
+  "permalink": "https://www.instagram.com/reel/Da_aPRwAFhx/",
+  "instagram_creation_id": "17976643533071341"
+}
