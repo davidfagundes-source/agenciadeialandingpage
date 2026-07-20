@@ -1,0 +1,55 @@
+{
+  "status": "ready",
+  "date": "2026-07-20",
+  "topic": "Como escolher o primeiro processo para automatizar com IA sem bagunçar a operação",
+  "format": "carousel_feed_plus_stories_and_reel_cover",
+  "local_folder": "/opt/data/znth-instagram-squad/output/2026-07-20-primeiro-processo-ia-mapa",
+  "drive_folder": "1oJ05kP6YWhPdx20vRse5xIZpRqsXLYdV",
+  "drive_folder_url": "https://drive.google.com/drive/folders/1oJ05kP6YWhPdx20vRse5xIZpRqsXLYdV",
+  "drive_parent_output_folder_id": "1sdT5neTLrWM947xO7gIUGB9X9nW079HS",
+  "caption_path": "/opt/data/znth-instagram-squad/output/2026-07-20-primeiro-processo-ia-mapa/caption.txt",
+  "image_paths": [
+    "/opt/data/znth-instagram-squad/output/2026-07-20-primeiro-processo-ia-mapa/images/slide-01.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-20-primeiro-processo-ia-mapa/images/slide-02.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-20-primeiro-processo-ia-mapa/images/slide-03.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-20-primeiro-processo-ia-mapa/images/slide-04.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-20-primeiro-processo-ia-mapa/images/slide-05.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-20-primeiro-processo-ia-mapa/images/slide-06.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-20-primeiro-processo-ia-mapa/images/slide-07.png"
+  ],
+  "story_image_paths": [
+    "/opt/data/znth-instagram-squad/output/2026-07-20-primeiro-processo-ia-mapa/images/story-01.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-20-primeiro-processo-ia-mapa/images/story-02.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-20-primeiro-processo-ia-mapa/images/story-03.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-20-primeiro-processo-ia-mapa/images/story-04.png",
+    "/opt/data/znth-instagram-squad/output/2026-07-20-primeiro-processo-ia-mapa/images/story-05.png"
+  ],
+  "reel_cover_path": "/opt/data/znth-instagram-squad/output/2026-07-20-primeiro-processo-ia-mapa/images/reel-cover.png",
+  "github_repo": "davidfagundes-source/agenciadeialandingpage",
+  "github_paths_planned": [
+    "znth-instagram-assets/2026-07-20-primeiro-processo-ia-mapa/reel-cover.png",
+    "znth-instagram-assets/2026-07-20-primeiro-processo-ia-mapa/slide-01.png",
+    "znth-instagram-assets/2026-07-20-primeiro-processo-ia-mapa/slide-02.png",
+    "znth-instagram-assets/2026-07-20-primeiro-processo-ia-mapa/slide-03.png",
+    "znth-instagram-assets/2026-07-20-primeiro-processo-ia-mapa/slide-04.png",
+    "znth-instagram-assets/2026-07-20-primeiro-processo-ia-mapa/slide-05.png",
+    "znth-instagram-assets/2026-07-20-primeiro-processo-ia-mapa/slide-06.png",
+    "znth-instagram-assets/2026-07-20-primeiro-processo-ia-mapa/slide-07.png",
+    "znth-instagram-assets/2026-07-20-primeiro-processo-ia-mapa/story-01.png",
+    "znth-instagram-assets/2026-07-20-primeiro-processo-ia-mapa/story-02.png",
+    "znth-instagram-assets/2026-07-20-primeiro-processo-ia-mapa/story-03.png",
+    "znth-instagram-assets/2026-07-20-primeiro-processo-ia-mapa/story-04.png",
+    "znth-instagram-assets/2026-07-20-primeiro-processo-ia-mapa/story-05.png"
+  ],
+  "suggested_posting_window": "2026-07-20 09:00-11:30 BRT",
+  "agents_used": [
+    "Natan Notícias",
+    "Caio Carrossel",
+    "Rafael Reel",
+    "Simone Stories",
+    "Diana Design",
+    "Vera Veredito",
+    "Paulo Publisher"
+  ],
+  "published": false
+}
